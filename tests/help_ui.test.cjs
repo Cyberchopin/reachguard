@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const {states, canRespond, canCancel, localTest} = require('../callgate/demo/help.js');
+const {states, canRespond, canCancel, localTest, rotationText} = require('../callgate/demo/help.js');
 test('only an assigned contact UI can respond while recorded', () => {
   assert.equal(canRespond('contact', {status:'recorded'}), true);
   for (const role of ['owner','dashboard','device']) assert.equal(canRespond(role,{status:'recorded'}),false);
@@ -17,4 +17,10 @@ test('receipt and acceptance claims stay distinct', () => {
   assert.match(states.accepted.message,/does not prove that help has arrived/);
   assert.equal(localTest('local-test-synthetic-1'),true);
   assert.equal(localTest('nano-01-alarm-1'),false);
+});
+test('rotation text only while a rotating request is still recorded', () => {
+  const rotation={contacts:['a','b','c'],position:1,round:2};
+  assert.match(rotationText({status:'recorded',rotation}),/contact 2 of 3 \(round 2\)\. No contact has accepted yet/);
+  assert.equal(rotationText({status:'accepted',rotation}),null);
+  assert.equal(rotationText({status:'recorded',rotation:null}),null);
 });

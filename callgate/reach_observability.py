@@ -10,7 +10,7 @@ _sdk = None
 STEPS = frozenset({
     'observability.smoke_test',
     'device.upload', 'device.persist', 'help.sync', 'help.persist',
-    'help.response', 'help.read', 'help.list', 'help.cancel',
+    'help.response', 'help.read', 'help.list', 'help.cancel', 'help.rotate',
 })
 
 

@@ -67,6 +67,10 @@ States: `recorded` → contact `accepted` or `unable_to_help`; the owner can cha
 
 Polling is implemented; push notifications, automatic escalation, dispatch, location, emergency-service delivery and device-credential status/cancel APIs are **proposed / not implemented**. Do not present them as connected capabilities. Acceptance means a scoped contact acknowledged responsibility, not that help arrived or a human identity was verified.
 
+## Contact rotation (branch `feature/help-escalation`, pending review)
+
+Optional. Start the help service with `python -m scripts.start_help_demo --contacts 3 --wait-seconds 20` (use 10 for a demo). Contact 1 keeps `contact.token`; the launcher adds `contact-2.token`, `contact-3.token` under the same runtime directory without changing existing files. Each new help request notifies contact 1, then the next contact after each wait without acceptance, and starts a new round after the last, until a contact accepts or answers unable, or the owner cancels. Status stays `recorded` while rotating; the response adds a `rotation` object (contacts, round, position, current contact, next due time) and the history shows each notify/timeout. A contact sees a request only after being notified. Requests recorded before rotation was enabled are unchanged. "Notified" means the request is on that contact's page; no call, push or SMS is sent.
+
 ## Pages and private local handoff
 
 Current local services (keep running during teammate testing):

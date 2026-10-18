@@ -9,7 +9,8 @@
   const canRespond=(role,row)=>role==='contact' && row?.status==='recorded';
   const canCancel=(role,row)=>role==='owner' && !!row && row.status!=='cancelled';
   const localTest=id=>/^(local-test-|local-manual-|help-local-test-|ui-preview-)/.test(id);
-  if(typeof module!=='undefined')module.exports={states,canRespond,canCancel,localTest};
+  const rotationText=row=>row?.status==='recorded'&&row.rotation?`Contacting contact ${row.rotation.position+1} of ${row.rotation.contacts.length} (round ${row.rotation.round}). No contact has accepted yet. No notification delivery is confirmed.`:null;
+  if(typeof module!=='undefined')module.exports={states,canRespond,canCancel,localTest,rotationText};
   if(typeof document==='undefined')return;
   const el=id=>document.getElementById(id), contact=document.body.dataset.page==='contact';
   let code='',timer,rows=[],selected=null,role=null,online=false,busy=false,connectedOnce=false;
@@ -49,15 +50,15 @@
       button.append(badge,title,subtitle);button.onclick=()=>{selected=item.event_id;render();};el('request-list').append(button);
     }
     text('request-title',row?'Help request':'Choose a request');text('state',state?.title||'No request selected');el('state').className='badge '+(state?.tone||'');
-    text('summary',state?.message||'Only an authorized contact response can mark a request as accepted.');el('summary').className='notice '+(state?.tone||'');
+    text('summary',rotationText(row)||state?.message||'Only an authorized contact response can mark a request as accepted.');el('summary').className='notice '+(state?.tone||'');
     text('source',row?`${localTest(row.event_id)?'Local test':'Device event'} · ${row.device_id} · Recorded ${stamp(row.received_at)}. HTTP receipt does not verify a BLE button press.`:'');
     el('history').replaceChildren();
-    const labels={record:'Recorded from the device inbox',accept:'Contact accepted',unable:'Contact unable to help',cancel:'User cancelled'};
+    const labels={record:'Recorded from the device inbox',notify:'Contact notified',timeout:'No acceptance in time',accept:'Contact accepted',unable:'Contact unable to help',cancel:'User cancelled'};
     for(const [index,entry] of (row?.history||[]).entries()){
       const li=document.createElement('li'),dot=document.createElement('span'),body=document.createElement('div'),title=document.createElement('span'),note=document.createElement('span');
       dot.className='step-dot';dot.textContent=String(index+1);title.className='step-title';
       title.textContent=entry.result==='applied'?labels[entry.command]||'Recorded action':'Action not applied';
-      note.className='step-note';note.textContent=stamp(entry.at)+(entry.result==='rejected'?' · '+(entry.command==='cancel'?'Cancellation':'Contact response')+' refused because the request had already changed.':' · '+(entry.actor_role==='source'?'Backend record only':entry.actor_role==='owner'?'User access':'Separate contact access'));
+      note.className='step-note';note.textContent=stamp(entry.at)+(entry.result==='rejected'?' · '+(entry.command==='cancel'?'Cancellation':'Contact response')+' refused because the request had already changed.':' · '+(entry.actor_role==='source'?'Backend record only':entry.actor_role==='system'?'Automatic rotation · '+entry.reason:entry.actor_role==='owner'?'User access':'Separate contact access'));
       body.append(title,note);li.append(dot,body);el('history').append(li);
     }
     controls(row);
