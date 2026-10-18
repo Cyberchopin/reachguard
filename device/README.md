@@ -5,7 +5,7 @@
 This folder holds the pendant firmware and the iPhone home gateway of the
 ReachGuard hackathon project. It is a copy of
 [Iridium0317/WearableEmergencyAssistanceSystem](https://github.com/Iridium0317/WearableEmergencyAssistanceSystem)
-at commit `010aaa9`; that repository keeps the full history. Run the commands
+at commit `53bd7e8`; that repository keeps the full history. Run the commands
 below from this `device/` folder.
 
 Reach is an educational prototype of a wearable emergency-alert controller on
@@ -202,6 +202,7 @@ forces one retransmission for testing.
 | Full chain to "Contact accepted" | Pass | T14 |
 | Backend offline, app relaunch, board reset, lost ack | Pass on the phone side | T15 |
 | Gateway phone locked: receive, ack | Pass | T16 |
+| One hour without a reboot (Mac as gateway) | 410/417 delivered; 7 BLE drops closed from the Mac side, no resets, each shown as ERROR | T18 |
 
 ## Prototype findings
 
