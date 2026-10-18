@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const {states, canRespond, canCancel, localTest, rotationText} = require('../callgate/demo/help.js');
+const {states, canRespond, canCancel, localTest, rotationText, progress} = require('../callgate/demo/help.js');
 test('only an assigned contact UI can respond while recorded', () => {
   assert.equal(canRespond('contact', {status:'recorded'}), true);
   for (const role of ['owner','dashboard','device']) assert.equal(canRespond(role,{status:'recorded'}),false);
@@ -23,4 +23,20 @@ test('rotation text only while a rotating request is still recorded', () => {
   assert.match(rotationText({status:'recorded',rotation}),/step 2 of 3, round 2\. No contact has accepted yet/);
   assert.equal(rotationText({status:'accepted',rotation}),null);
   assert.equal(rotationText({status:'recorded',rotation:null}),null);
+});
+test('progress announces only new steps, per role', () => {
+  const rotation={contacts:['d','s','d','s','n'],position:1,round:1};
+  const h=(seq,command,actor_id,reason)=>({seq,command,actor_id,reason,result:'applied'});
+  const row={event_id:'e1',device_id:'nano-01',rotation,history:[h(1,'record','device-inbox'),h(2,'notify','d','round 1, step 1 of 5')]};
+  const first=progress(new Map(),[row],'owner','o');
+  assert.deepEqual(first.messages,['New help request from nano-01.','Contact 1 notified (round 1, step 1 of 5).']);
+  row.history.push(h(3,'timeout','d'),h(4,'notify','s','round 1, step 2 of 5'));
+  const second=progress(first.seen,[row],'owner','o');
+  assert.deepEqual(second.messages,['Contact 1: no acceptance in time.','Contact 2 notified (round 1, step 2 of 5).']);
+  assert.deepEqual(progress(second.seen,[row],'owner','o').messages,[]);
+  // A contact hears only their own turn.
+  assert.deepEqual(progress(first.seen,[row],'contact','s').messages,['It is your turn: someone needs help. Open the request and choose a response.']);
+  assert.deepEqual(progress(first.seen,[row],'contact','n').messages,[]);
+  row.history.push({...h(5,'accept','s'),actor_role:'contact'},{...h(6,'unable','x'),result:'rejected'});
+  assert.deepEqual(progress(second.seen,[row],'dashboard','v').messages,['Contact 2 accepted. This does not mean help has arrived.']);
 });
