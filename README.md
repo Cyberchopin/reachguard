@@ -28,6 +28,8 @@ flowchart LR
 
 Opening the contact page does not accept a request. Device, contact, owner and Dashboard access are separate. A device gateway cannot accept its own request using its upload credential.
 
+The pendant firmware and the iPhone home gateway are in [device/](device/README.md), with their own tests in CI.
+
 ## Actual software-test screenshots
 
 These are state-card captures from the **running application**, using actual role authentication and persisted state. No API responses or UI states were substituted. The uploader was a local HTTP client over public HTTPS; the human operator subsequently clicked **I can help**. These browser captures are not iPhone screenshots or BLE evidence.
