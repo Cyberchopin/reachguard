@@ -431,6 +431,28 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     ]
   },
   {
+    "id": "reach-readme-019",
+    "document": "README.md",
+    "quote": "<td valign=\"top\"><img src=\"docs/assets/reach-software-test/contact-recorded.png\" width=\"340\" alt=\"Actual Local test contact card: Recorded by backend, with I can help available.\"></td>",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/assets/reach-software-test/contact-recorded.png",
+      "docs/REACH_SOFTWARE_TEST_2026-10-18.md"
+    ],
+    "reason": "Image display width in pixels, not a measured product result. Existing image bytes and evidence hashes are unchanged."
+  },
+  {
+    "id": "reach-readme-020",
+    "document": "README.md",
+    "quote": "<td valign=\"top\"><img src=\"docs/assets/reach-software-test/dashboard-accepted.png\" width=\"340\" alt=\"Actual read-only Dashboard: Contact accepted and one acceptance history entry.\"></td>",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/assets/reach-software-test/dashboard-accepted.png",
+      "docs/REACH_SOFTWARE_TEST_2026-10-18.md"
+    ],
+    "reason": "Image display width in pixels, not a measured product result. Existing image bytes and evidence hashes are unchanged."
+  },
+  {
     "id": "reach-readme-003",
     "document": "README.md",
     "quote": "The same test has one applied acceptance, reconciled with its backend receipt and audit history. The receipt-to-acceptance interval includes human waiting and is not server latency. [Exact timestamps, event reconciliation, capture provenance and timing limits](docs/REACH_SOFTWARE_TEST_2026-10-18.md).",
@@ -569,6 +591,17 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
   },
   {
+    "id": "reach-readme-021",
+    "document": "README.md",
+    "quote": "| Hardware-origin upload report | Teammate reports real button/BLE/Swift delivery; the operator relays an App screenshot showing Medical / Recorded by backend. The backend independently contains the matching help requests. Hardware-event contact acceptance and the full loop remain pending; see [receipt reconciliation](docs/REACH_HARDWARE_RECEIPTS_2026-10-18.md). |",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/REACH_HARDWARE_RECEIPTS_2026-10-18.md",
+      "docs/reach-hardware-receipts-2026-10-18.json"
+    ],
+    "reason": "Digits occur in a dated evidence link; teammate-reported hardware provenance is separated from directly checked backend receipt and pending contact acceptance."
+  },
+  {
     "id": "reach-readme-014",
     "document": "README.md",
     "quote": "Logs keep fixed operation names, outcomes, measured duration, optional HTTP status and generated trace/span IDs. They omit credentials, bodies, event/device/actor IDs, SQL, private URLs, database paths and exception text. Automatic SDK integrations are disabled. [The observability record](docs/SENTRY_OBSERVABILITY.md) documents the actual DSN-path 404 diagnosis, corrected smoke envelopes returning 200, and subsequent operator-confirmed UI visibility. No secret is committed.",
@@ -594,6 +627,16 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
       "docs/reach-software-test-2026-10-18.json"
     ],
     "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-022",
+    "document": "README.md",
+    "quote": "Use [the overnight handoff and shortest acceptance sequence](docs/REACH_OVERNIGHT_HANDOFF_2026-10-18.md) to recover current entry points, distinguish a rotated tunnel from a stopped service, and finish the remaining hardware/contact and Sentry checks. It also records the PR review/merge order. Do not restart healthy services for documentation or retry an old accepted software test as new evidence.",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/REACH_OVERNIGHT_HANDOFF_2026-10-18.md"
+    ],
+    "reason": "Dated handoff document reference, not a measured product quantity."
   },
   {
     "id": "reach-readme-016",
