@@ -99,7 +99,13 @@
       "first_import_sentry_record_supplied": false,
       "contact_response_sentry_record_supplied": false,
       "dashboard_read_sentry_record_supplied": false,
-      "cross_service_event_trace_join_supported": false
+      "cross_service_event_trace_join_supported": false,
+      "business_trace_detail_operator_confirmed": true,
+      "operator_confirmed_trace_id": "834071b8e04440bb806d78eb93449c3b",
+      "operator_confirmed_trace_steps": [
+        "device.upload",
+        "device.persist"
+      ]
     }
   }
 }

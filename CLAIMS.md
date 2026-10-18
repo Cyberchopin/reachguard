@@ -587,7 +587,7 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
   {
     "id": "reach-readme-015",
     "document": "README.md",
-    "quote": "For the local HTTP rehearsal, the operator supplied actual `device.upload` and `device.persist` business logs sharing one trace. Their measured durations and exact evidence boundaries are recorded in [the rehearsal evidence](docs/REACH_SOFTWARE_TEST_2026-10-18.md); they are not interchangeable with the client round-trip time or human response interval.",
+    "quote": "For the local HTTP rehearsal, the operator supplied actual `device.upload` and `device.persist` logs sharing one trace, then opened its Sentry Trace detail and confirmed both steps. The contact-response Trace remains unverified. [Measured durations and evidence boundaries](docs/REACH_SOFTWARE_TEST_2026-10-18.md) distinguish server work, client round-trip time and human waiting.",
     "check": "nonmetric_reference",
     "references": [
       "docs/REACH_SOFTWARE_TEST_2026-10-18.md",

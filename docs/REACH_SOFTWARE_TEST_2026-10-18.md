@@ -44,19 +44,19 @@ The operator pasted the following fields from Sentry Logs. These are actual busi
 
 These two logs directly share a trace ID and refer to distinct spans. Existing source instrumentation nests persistence inside upload processing. The persistence timing includes the instrumented context and commit/rollback, but connection creation occurs before that context. It is not a separate serial cost to add to the upload's 24.499 ms. The client's 156.118 ms is a different, wider HTTPS round-trip measurement; subtracting the server duration does not isolate pure network latency.
 
-Exact event-ID correlation and the parent/child tree as displayed in Sentry were not independently exported here. No duration for `help.sync`, `help.persist`, `help.response`, `help.read` or `help.list` is inferred from these two records.
+The operator subsequently opened the actual Sentry Trace detail for `834071b8e04440bb806d78eb93449c3b` and confirmed it contains both `device.upload` and `device.persist`. This verifies Trace-detail visibility for the upload/persistence operation, beyond matching IDs in log attributes. No authenticated agent export or complete parent/child tree was captured. Event-ID linkage remains temporal. No duration for `help.sync`, `help.persist`, `help.response`, `help.read` or `help.list` is inferred from these records.
 
 The operator also supplied `help.sync` logs at `08:16:54.891Z` (1.599 ms) and `08:17:57.234Z` (1.646 ms). Both are later than this event's import and acceptance. They show subsequent background sync visibility, not the first import of this event. They are retained separately as excluded observations in the JSON evidence and are not assigned as this event's processing latency.
 
 | Stage | Business evidence | Sentry evidence available for this rehearsal |
 | --- | --- | --- |
-| Upload | Actual 201 response and persisted receipt | Operator-pasted upload log in the request window |
-| Inbox persistence | Persisted inbox event | Operator-pasted persistence log sharing the upload trace ID |
+| Upload | Actual 201 response and persisted receipt | Actual upload log in the request window; operator opened matching Trace detail and confirmed the upload step |
+| Inbox persistence | Persisted inbox event | Actual persistence log sharing the upload trace ID; operator confirmed the persistence step in that Trace detail |
 | First help import | Matching help row and source audit timestamp | No matching import log/trace supplied; later sync observations excluded |
 | Contact acceptance | Operator-confirmed click; exactly one applied assigned-contact audit entry | No matching `help.response` log/trace supplied at documentation time |
 | Dashboard accepted | Actual read-only browser state and screenshot | No matching read/list log/trace supplied at documentation time |
 
-The shared trace ID in two logs is directly observed. The corresponding business Trace detail tree was not independently exported or confirmed open here. General project visibility of Traces was confirmed in the earlier Sentry acceptance, but that is not substituted for this event's Trace detail. The table intentionally records evidence limits rather than inventing missing spans or timings.
+The shared trace ID in two logs is directly observed, and the operator explicitly confirmed the upload/persistence Trace detail opens and includes both steps. That confirmation is separate from the earlier smoke-test acceptance. The contact-response Trace remains unverified, as do the event's first-import and Dashboard-read telemetry records. The table intentionally records those limits rather than inventing missing spans or timings.
 
 Inspect upload candidates around `08:11:55Z`–`08:12:00Z` for `device.upload` and its `device.persist` span. Inspect `help.sync` / `help.persist` near the import timestamp. After the human submits a response, use its persisted audit time to inspect `help.response`, and then inspect read/list operations around the actual Dashboard observation.
 

@@ -91,7 +91,7 @@ The optional Python SDK uses **actual transactions/spans and structured Sentry L
 
 Logs keep fixed operation names, outcomes, measured duration, optional HTTP status and generated trace/span IDs. They omit credentials, bodies, event/device/actor IDs, SQL, private URLs, database paths and exception text. Automatic SDK integrations are disabled. [The observability record](docs/SENTRY_OBSERVABILITY.md) documents the actual DSN-path 404 diagnosis, corrected smoke envelopes returning 200, and subsequent operator-confirmed UI visibility. No secret is committed.
 
-For the local HTTP rehearsal, the operator supplied actual `device.upload` and `device.persist` business logs sharing one trace. Their measured durations and exact evidence boundaries are recorded in [the rehearsal evidence](docs/REACH_SOFTWARE_TEST_2026-10-18.md); they are not interchangeable with the client round-trip time or human response interval.
+For the local HTTP rehearsal, the operator supplied actual `device.upload` and `device.persist` logs sharing one trace, then opened its Sentry Trace detail and confirmed both steps. The contact-response Trace remains unverified. [Measured durations and evidence boundaries](docs/REACH_SOFTWARE_TEST_2026-10-18.md) distinguish server work, client round-trip time and human waiting.
 
 ### Read the timings honestly
 
