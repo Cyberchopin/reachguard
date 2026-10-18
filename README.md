@@ -28,6 +28,8 @@ flowchart LR
 
 Opening the contact page does not accept a request. Device, contact, owner and Dashboard access are separate. A device gateway cannot accept its own request using its upload credential.
 
+Full system, from the pendant through the iPhone home gateway to the contact pages, with the life of one alert and the design decisions: [Reach system architecture](docs/REACH_SYSTEM_ARCHITECTURE.md).
+
 ## Actual software-test screenshots
 
 These are state-card captures from the **running application**, using actual role authentication and persisted state. No API responses or UI states were substituted. The uploader was a local HTTP client over public HTTPS; the human operator subsequently clicked **I can help**. These browser captures are not iPhone screenshots or BLE evidence.
