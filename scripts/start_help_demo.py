@@ -6,7 +6,9 @@ startup. No .env, device credential, payment key or reviewer file is loaded.
 With --contacts N (N > 1) the service rotates through N contacts in order
 (contact.token is contact 1, then contact-2.token, ...), moving on after
 --wait-seconds without acceptance. Existing role files are kept; only missing
-contacts are added.
+contacts are added. --level1 L --level1-attempts A treats the first L contacts
+as close family: each round notifies them A times, alternating, then each later
+contact once (L=2, A=3, 4 contacts: 1 2 1 2 1 2 3 4).
 """
 import argparse
 import json
@@ -19,6 +21,13 @@ import uvicorn
 from callgate.help_requests import HelpStore, HelpPrincipal
 from callgate.help_transport import create_help_app
 from callgate.reach_observability import configure_reach_sentry
+
+
+def rotation_schedule(contacts,level1=None,attempts=1):
+    level1=len(contacts) if level1 is None else level1
+    if not 1<=level1<=len(contacts) or attempts<1:
+        raise ValueError('level 1 must cover 1..N contacts and attempts must be positive')
+    return [c for _ in range(attempts) for c in contacts[:level1]]+list(contacts[level1:])
 
 
 def provision(runtime,contacts=1):
@@ -60,6 +69,8 @@ def main():
     parser.add_argument('--port',type=int,default=8783)
     parser.add_argument('--contacts',type=int,default=1,help='contacts to rotate through (1 = no rotation)')
     parser.add_argument('--wait-seconds',type=int,default=20,help='rotation wait per contact')
+    parser.add_argument('--level1',type=int,default=None,help='first L contacts are close family (default: all)')
+    parser.add_argument('--level1-attempts',type=int,default=1,help='times each level 1 contact is notified per round')
     args=parser.parse_args();os.umask(0o077)
     # Reserve the exact loopback port before provisioning; never fall back to a
     # payment/inbox port and never terminate an existing service.
@@ -71,16 +82,17 @@ def main():
         identities={p.role:p for p in credentials.values() if p.role!='contact'}
         contacts=[p for p in credentials.values() if p.role=='contact'][:max(args.contacts,1)]
         devices=set(identities['owner'].device_ids).intersection(*(c.device_ids for c in contacts))
+        schedule=rotation_schedule([c.actor_id for c in contacts],args.level1,args.level1_attempts)
         routes={device:{'owner':identities['owner'].actor_id,'contact':contacts[0].actor_id,
-                        **({'contacts':[c.actor_id for c in contacts]} if len(contacts)>1 else {})} for device in devices}
+                        **({'contacts':schedule} if len(schedule)>1 else {})} for device in devices}
         configure_reach_sentry()
         store=HelpStore(args.inbox_db,runtime/'help.sqlite3',routes,wait_seconds=args.wait_seconds)
         app=create_help_app(store,credentials)
         (runtime/'service.pid').write_text(str(os.getpid()))
         print('Reach help Dashboard: http://127.0.0.1:'+str(args.port)+'/',flush=True)
         print('Reach contact page: http://127.0.0.1:'+str(args.port)+'/contact',flush=True)
-        if len(contacts)>1:
-            print(f'Contact rotation: {len(contacts)} contacts, {args.wait_seconds} s each (contact.token, contact-2.token, ...)',flush=True)
+        if len(schedule)>1:
+            print(f'Contact rotation: {len(contacts)} contacts, {len(schedule)} steps per round, {args.wait_seconds} s each (contact.token, contact-2.token, ...)',flush=True)
         print('Independent role access files saved locally; values not displayed.',flush=True)
         uvicorn.Server(uvicorn.Config(app,access_log=False,log_level='warning')).run(sockets=[listener])
     finally:

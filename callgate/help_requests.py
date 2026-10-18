@@ -3,10 +3,11 @@
 No payment workflow, risk state, challenge, signing key, or delivery assumption.
 SQLite transactions serialize responses/cancellation and retain rejected actions.
 
-Optional rotation: a route with an ordered `contacts` list notifies one contact
-at a time. After `wait_seconds` with no acceptance the next contact is notified,
-and after the last one the rotation starts again from the first, until someone
-accepts or the owner cancels. Status stays `recorded` while rotating; the
+Optional rotation: a route with an ordered `contacts` schedule notifies one
+contact at a time. After `wait_seconds` with no acceptance the next entry is
+notified, and after the last one the rotation starts again from the first, until
+someone accepts or the owner cancels. A contact may appear more than once in the
+schedule (e.g. close family several times per round). Status stays `recorded` while rotating; the
 rotation lives in its own tables and every notify/timeout is audited. Requests
 recorded before rotation was configured keep the single-contact behaviour.
 """
@@ -45,9 +46,8 @@ class HelpStore:
         for route in self.routes.values():
             if 'contacts' in route:
                 contacts = list(route['contacts'])
-                if (len(set(contacts)) != len(contacts) or not all(contacts) or
-                        contacts[0] != route['contact']):
-                    raise ValueError('rotation contacts must be distinct and start with the route contact')
+                if not contacts or not all(contacts) or contacts[0] != route['contact']:
+                    raise ValueError('rotation contacts must be non-empty and start with the route contact')
                 route['contacts'] = contacts
         if wait_seconds <= 0:
             raise ValueError('rotation wait must be positive')
@@ -124,7 +124,7 @@ class HelpStore:
         contact = contacts[position]
         db.execute('INSERT OR IGNORE INTO help_notified VALUES (?,?)', (event_id, contact))
         db.execute('INSERT INTO help_audit (event_id,action_id,actor_role,actor_id,command,before_state,after_state,result,reason,at) VALUES (?,NULL,?,?,?,?,?,?,?,?)',
-            (event_id,'system',contact,'notify','recorded','recorded','applied',f'round {round_}, contact {position + 1} of {len(contacts)}',at.isoformat()))
+            (event_id,'system',contact,'notify','recorded','recorded','applied',f'round {round_}, step {position + 1} of {len(contacts)}',at.isoformat()))
         db.execute('UPDATE help_rotation SET position=?,round=?,next_due_at=? WHERE event_id=?',
             (position, round_, (at + self.wait).isoformat(), event_id))
 

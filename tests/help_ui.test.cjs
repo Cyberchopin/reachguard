@@ -20,7 +20,7 @@ test('receipt and acceptance claims stay distinct', () => {
 });
 test('rotation text only while a rotating request is still recorded', () => {
   const rotation={contacts:['a','b','c'],position:1,round:2};
-  assert.match(rotationText({status:'recorded',rotation}),/contact 2 of 3 \(round 2\)\. No contact has accepted yet/);
+  assert.match(rotationText({status:'recorded',rotation}),/step 2 of 3, round 2\. No contact has accepted yet/);
   assert.equal(rotationText({status:'accepted',rotation}),null);
   assert.equal(rotationText({status:'recorded',rotation:null}),null);
 });

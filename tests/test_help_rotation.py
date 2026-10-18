@@ -145,7 +145,7 @@ def test_concurrent_rotation_passes_step_once(demo):
 
 @pytest.mark.parametrize('route',[
     {'owner':'s','contact':'a','contacts':['b','a']},
-    {'owner':'s','contact':'a','contacts':['a','a']},
+    {'owner':'s','contact':'a','contacts':['a','']},
     {'owner':'s','contact':'a','contacts':[]},
     {'owner':'s','contact':'a','extra':'x'},
 ])
@@ -154,3 +154,24 @@ def test_invalid_rotation_routes_are_refused(tmp_path,route):
     create_app(device_tokens={'nano-01':'d'*40},viewer_token='z'*40,db_path=str(source))
     with pytest.raises(ValueError):
         HelpStore(source,tmp_path/'help.sqlite3',{'nano-01':route})
+
+
+def test_schedule_with_repeats_alternates_family_then_others(tmp_path):
+    from scripts.start_help_demo import rotation_schedule
+    schedule=rotation_schedule(['daughter','son','neighbour','carer'],level1=2,attempts=3)
+    assert schedule==['daughter','son','daughter','son','daughter','son','neighbour','carer']
+    assert rotation_schedule(['a','b','c'])==['a','b','c']
+    for bad in [dict(level1=0),dict(level1=4),dict(attempts=0)]:
+        with pytest.raises(ValueError):rotation_schedule(['a','b','c'],**bad)
+    source=tmp_path/'inbox.sqlite3';clock=Clock()
+    device=TestClient(create_app(device_tokens={'nano-01':'d'*40},viewer_token='z'*40,db_path=str(source)))
+    device.post('/api/device-events',headers={'Authorization':'Bearer '+'d'*40},json={'event_id':'help-1','device_id':'nano-01','event_type':'help_request'})
+    store=HelpStore(source,tmp_path/'help.sqlite3',{'nano-01':{'owner':'student','contact':'daughter','contacts':schedule}},wait_seconds=20,now=clock)
+    for _ in range(8):
+        clock.advance(20);store.sync()
+    row=store.get('help-1',PRINCIPALS['owner'])
+    assert [h['actor_id'] for h in row['history'] if h['command']=='notify']==schedule+['daughter']
+    assert row['rotation']['round']==2
+    # A repeated contact is still one contact: they see the request once and can accept it.
+    assert [r['event_id'] for r in store.list(PRINCIPALS['c1'])]==['help-1']
+    assert store.act('help-1','a1',PRINCIPALS['c1'],'accept')[1]['request']['status']=='accepted'

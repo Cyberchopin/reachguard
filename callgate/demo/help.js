@@ -9,7 +9,7 @@
   const canRespond=(role,row)=>role==='contact' && row?.status==='recorded';
   const canCancel=(role,row)=>role==='owner' && !!row && row.status!=='cancelled';
   const localTest=id=>/^(local-test-|local-manual-|help-local-test-|ui-preview-)/.test(id);
-  const rotationText=row=>row?.status==='recorded'&&row.rotation?`Contacting contact ${row.rotation.position+1} of ${row.rotation.contacts.length} (round ${row.rotation.round}). No contact has accepted yet. No notification delivery is confirmed.`:null;
+  const rotationText=row=>row?.status==='recorded'&&row.rotation?`Contacting in turn: step ${row.rotation.position+1} of ${row.rotation.contacts.length}, round ${row.rotation.round}. No contact has accepted yet. No notification delivery is confirmed.`:null;
   if(typeof module!=='undefined')module.exports={states,canRespond,canCancel,localTest,rotationText};
   if(typeof document==='undefined')return;
   const el=id=>document.getElementById(id), contact=document.body.dataset.page==='contact';
