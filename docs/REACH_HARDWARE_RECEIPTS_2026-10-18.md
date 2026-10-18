@@ -21,7 +21,13 @@ The database confirms persistence and help-request import, not the BLE sender or
 
 **Medical is an App label, not a backend alert type.** The backend stores `help_request` for both IDs and does not implement `alert_type`. The records do not establish medical dispatch, emergency-service delivery or arrival of help.
 
-## Remaining acceptance
+## Subsequent acceptance — pre-match read-only reconciliation
+
+The original 08:38 UTC snapshot above is retained as historical evidence. Device T14 records a real D2 Emergency hold, BLE/iPhone upload and human contact acceptance for `nano-01-c41ea862-09b5-4b2b-8379-8275b2e99fdb`. A later read-only backend audit confirms accepted/version 1 and exactly one applied contact `accept`, recorded → accepted at **2026-10-18T08:58:30.916676+00:00**. The Medical event `…d18e4078` remains recorded/version 0.
+
+The operator reports the demo was recorded. The recording was not directly inspected in this review; backend state confirms acceptance, not which browser was visible in the recording. T14 records a Mac contact browser, not an iPhone contact response. No claim of arrival, medical dispatch, or hardware-specific response tracing follows. The exact installed firmware/App revisions still need to be tied to the recording.
+
+## Historical remaining acceptance at the earlier snapshot
 
 - A human selects one of these exact pending IDs and explicitly chooses **I can help**; the assistant must not do so.
 - Reconcile the same ID to one applied assigned-contact acceptance and the read-only Dashboard state. Do not substitute the already accepted local HTTP test.
