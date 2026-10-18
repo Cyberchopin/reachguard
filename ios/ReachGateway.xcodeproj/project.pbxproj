@@ -1,0 +1,72 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		A1B2C3D40000000000000002 /* ReachGatewayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000001 /* ReachGatewayApp.swift */; };
+		A1B2C3D40000000000000004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000003 /* ContentView.swift */; };
+		A1B2C3D40000000000000006 /* GatewayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000005 /* GatewayModel.swift */; };
+		A1B2C3D40000000000000008 /* BLEGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000007 /* BLEGateway.swift */; };
+		A1B2C3D4000000000000000A /* ConfigStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D40000000000000009 /* ConfigStore.swift */; };
+		A1B2C3D4000000000000000C /* AlertProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4000000000000000B /* AlertProtocol.swift */; };
+		A1B2C3D4000000000000000E /* EventLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4000000000000000D /* EventLedger.swift */; };
+		A1B2C3D40000000000000010 /* DeviceEventUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4000000000000000F /* DeviceEventUploader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1B2C3D40000000000000001 /* ReachGatewayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachGatewayApp.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000003 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000005 /* GatewayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayModel.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000007 /* BLEGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEGateway.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000009 /* ConfigStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigStore.swift; sourceTree = "<group>"; };
+		A1B2C3D4000000000000000B /* AlertProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertProtocol.swift; sourceTree = "<group>"; };
+		A1B2C3D4000000000000000D /* EventLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLedger.swift; sourceTree = "<group>"; };
+		A1B2C3D4000000000000000F /* DeviceEventUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceEventUploader.swift; sourceTree = "<group>"; };
+		A1B2C3D40000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3D40000000000000012 /* ReachGateway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReachGateway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B2C3D4000000000000001A = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B2C3D40000000000000013 = {isa = PBXGroup; children = (A1B2C3D40000000000000014, A1B2C3D40000000000000015, A1B2C3D40000000000000016); sourceTree = "<group>"; };
+		A1B2C3D40000000000000014 /* ReachGateway */ = {isa = PBXGroup; children = (A1B2C3D40000000000000001, A1B2C3D40000000000000003, A1B2C3D40000000000000005, A1B2C3D40000000000000007, A1B2C3D40000000000000009, A1B2C3D40000000000000011); path = ReachGateway; sourceTree = "<group>"; };
+		A1B2C3D40000000000000015 /* ReachCore */ = {isa = PBXGroup; children = (A1B2C3D4000000000000000B, A1B2C3D4000000000000000D, A1B2C3D4000000000000000F); name = ReachCore; path = ReachCore/Sources/ReachCore; sourceTree = "<group>"; };
+		A1B2C3D40000000000000016 /* Products */ = {isa = PBXGroup; children = (A1B2C3D40000000000000012); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B2C3D40000000000000017 /* ReachGateway */ = {isa = PBXNativeTarget; buildConfigurationList = A1B2C3D4000000000000001D; buildPhases = (A1B2C3D40000000000000019, A1B2C3D4000000000000001A, A1B2C3D4000000000000001B); buildRules = (); dependencies = (); name = ReachGateway; productName = ReachGateway; productReference = A1B2C3D40000000000000012; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B2C3D40000000000000018 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1520; LastUpgradeCheck = 1520; }; buildConfigurationList = A1B2C3D4000000000000001C; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, "zh-Hans"); mainGroup = A1B2C3D40000000000000013; productRefGroup = A1B2C3D40000000000000016; projectDirPath = ""; projectRoot = ""; targets = (A1B2C3D40000000000000017); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B2C3D4000000000000001B = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B2C3D40000000000000019 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1B2C3D40000000000000002, A1B2C3D40000000000000004, A1B2C3D40000000000000006, A1B2C3D40000000000000008, A1B2C3D4000000000000000A, A1B2C3D4000000000000000C, A1B2C3D4000000000000000E, A1B2C3D40000000000000010); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1B2C3D4000000000000001E /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; ENABLE_USER_SCRIPT_SANDBOXING = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_NO_COMMON_BLOCKS = YES; DEBUG_INFORMATION_FORMAT = dwarf; ENABLE_TESTABILITY = YES; GCC_OPTIMIZATION_LEVEL = 0; ONLY_ACTIVE_ARCH = YES; SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		A1B2C3D4000000000000001F /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; ENABLE_USER_SCRIPT_SANDBOXING = YES; IPHONEOS_DEPLOYMENT_TARGET = 16.0; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; ENABLE_STRICT_OBJC_MSGSEND = YES; GCC_NO_COMMON_BLOCKS = YES; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; SWIFT_COMPILATION_MODE = wholemodule; VALIDATE_PRODUCT = YES; }; name = Release; };
+		A1B2C3D40000000000000020 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_FILE = ReachGateway/Info.plist; INFOPLIST_KEY_CFBundleDisplayName = "Reach Gateway"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = edu.reach.ReachGateway; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = NO; TARGETED_DEVICE_FAMILY = 1; }; name = Debug; };
+		A1B2C3D40000000000000021 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_STYLE = Automatic; CURRENT_PROJECT_VERSION = 1; DEVELOPMENT_TEAM = ""; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_FILE = ReachGateway/Info.plist; INFOPLIST_KEY_CFBundleDisplayName = "Reach Gateway"; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait; LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks"); MARKETING_VERSION = 0.1; PRODUCT_BUNDLE_IDENTIFIER = edu.reach.ReachGateway; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_EMIT_LOC_STRINGS = NO; TARGETED_DEVICE_FAMILY = 1; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B2C3D4000000000000001C = {isa = XCConfigurationList; buildConfigurations = (A1B2C3D4000000000000001E, A1B2C3D4000000000000001F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A1B2C3D4000000000000001D = {isa = XCConfigurationList; buildConfigurations = (A1B2C3D40000000000000020, A1B2C3D40000000000000021); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B2C3D40000000000000018 /* Project object */;
+}
