@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-10-18T08:38:39.626746+00:00",
+  "source_provenance": "Operator relays teammate real-button/BLE/Swift report and App screenshot showing Medical / Recorded by backend (201); screenshot file not directly inspected by agent.",
+  "records": [
+    {
+      "event_id": "nano-01-87a65e40-14e8-47ac-8dc2-ceaed18e4078",
+      "inbox": {
+        "event_id": "nano-01-87a65e40-14e8-47ac-8dc2-ceaed18e4078",
+        "device_id": "nano-01",
+        "event_type": "help_request",
+        "received_at": "2026-10-18T08:32:52.567910+00:00"
+      },
+      "help": {
+        "event_id": "nano-01-87a65e40-14e8-47ac-8dc2-ceaed18e4078",
+        "device_id": "nano-01",
+        "received_at": "2026-10-18T08:32:52.567910+00:00",
+        "imported_at": "2026-10-18T08:32:53.170377+00:00",
+        "status": "recorded",
+        "version": 0
+      },
+      "audit": [
+        {
+          "command": "record",
+          "result": "applied",
+          "actor_role": "source",
+          "at": "2026-10-18T08:32:53.170377+00:00"
+        }
+      ],
+      "inbox_help_request_verified": true,
+      "applied_acceptance_count": 0,
+      "assigned_contact_match_for_acceptance": null
+    },
+    {
+      "event_id": "nano-01-c41ea862-09b5-4b2b-8379-8275b2e99fdb",
+      "inbox": {
+        "event_id": "nano-01-c41ea862-09b5-4b2b-8379-8275b2e99fdb",
+        "device_id": "nano-01",
+        "event_type": "help_request",
+        "received_at": "2026-10-18T08:33:39.743051+00:00"
+      },
+      "help": {
+        "event_id": "nano-01-c41ea862-09b5-4b2b-8379-8275b2e99fdb",
+        "device_id": "nano-01",
+        "received_at": "2026-10-18T08:33:39.743051+00:00",
+        "imported_at": "2026-10-18T08:33:40.458903+00:00",
+        "status": "recorded",
+        "version": 0
+      },
+      "audit": [
+        {
+          "command": "record",
+          "result": "applied",
+          "actor_role": "source",
+          "at": "2026-10-18T08:33:40.458903+00:00"
+        }
+      ],
+      "inbox_help_request_verified": true,
+      "applied_acceptance_count": 0,
+      "assigned_contact_match_for_acceptance": null
+    }
+  ]
+}

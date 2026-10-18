@@ -1,12 +1,18 @@
+<div align="center">
+
 # ReachGuard
 
 **A request for help should lead to a visible human response.**
 
+Authenticated requests · Separate contact access · Visible acknowledgement
+
+[Evidence](#actual-software-test-screenshots) · [Demo](#run-the-software-demo) · [Status](#what-works-today) · [Sentry](#sentry-logs-and-tracing) · [Operator handoff](#next-operator-session) · [Credits](#sources-and-credits)
+
+</div>
+
 ReachGuard records a help request, lets an assigned contact explicitly choose **I can help**, and shows **Contact accepted** on a separate Dashboard. Upload success means the backend saved the request. Acceptance means the contact acknowledged responsibility; it does not mean help has arrived.
 
-The latest evidence rehearsal uses a deliberately marked local HTTP client over public HTTPS. Earlier iPhone Shortcut/contact evidence is documented separately. The physical wearable-button → BLE → Swift gateway path remains **unverified**.
-
-[Software demo](#run-the-software-demo) · [Capabilities](#what-works-today) · [Sentry](#sentry-logs-and-tracing) · [Sources](#sources-and-credits)
+The recorded software rehearsal uses a deliberately marked local HTTP client over public HTTPS. Separately, the teammate reports a real button → BLE → Swift → backend receipt, supported by an App screenshot relayed by the operator and matching backend records checked directly. Contact acceptance for those hardware-origin events remains pending in the recorded snapshot; the full hardware-to-contact loop is not yet accepted.
 
 ## The acknowledgement loop
 
@@ -26,9 +32,15 @@ Opening the contact page does not accept a request. Device, contact, owner and D
 
 These are state-card captures from the **running application**, using actual role authentication and persisted state. No API responses or UI states were substituted. The uploader was a local HTTP client over public HTTPS; the human operator subsequently clicked **I can help**. These browser captures are not iPhone screenshots or BLE evidence.
 
-| Before the human response: contact view | After the human response: Dashboard |
-| --- | --- |
-| ![Actual Local test card before acceptance: Recorded by backend, with I can help available.](docs/assets/reach-software-test/contact-recorded.png) | ![Actual read-only Dashboard after the human response: Contact accepted with one acceptance history entry.](docs/assets/reach-software-test/dashboard-accepted.png) |
+<table>
+<tr><th>Contact · before the human response</th><th>Dashboard · after the human response</th></tr>
+<tr>
+<td valign="top"><img src="docs/assets/reach-software-test/contact-recorded.png" width="340" alt="Actual Local test contact card: Recorded by backend, with I can help available."></td>
+<td valign="top"><img src="docs/assets/reach-software-test/dashboard-accepted.png" width="340" alt="Actual read-only Dashboard: Contact accepted and one acceptance history entry."></td>
+</tr>
+</table>
+
+*Actual software-test state cards, captured before and after the operator's manual response. Credentials, other requests and browser address bars are outside the captures. The image files are unchanged.*
 
 The same test has one applied acceptance, reconciled with its backend receipt and audit history. The receipt-to-acceptance interval includes human waiting and is not server latency. [Exact timestamps, event reconciliation, capture provenance and timing limits](docs/REACH_SOFTWARE_TEST_2026-10-18.md).
 
@@ -74,7 +86,8 @@ Read [device configuration](docs/DEVICE_EVENTS.md) before starting 8780 and [the
 | Local HTTP → manual contact acceptance | An explicitly marked test uploaded over actual public HTTPS; operator clicked acceptance; reconciliation found exactly one applied contact acceptance and Dashboard displayed accepted. See [this rehearsal](docs/REACH_SOFTWARE_TEST_2026-10-18.md). |
 | Shortcut → iPhone contact acceptance | Operator-confirmed software/phone run, reconciled with persisted receipt and acceptance; see [phone evidence](docs/IPHONE_HELP_VERIFICATION_2026-10-17.md). This does not prove a button press. |
 | Sentry Logs and Traces | Actual SDK envelopes accepted and both data types operator-confirmed visible in the configured project; see [acceptance](docs/SENTRY_OBSERVABILITY.md). Exact business-event correlation has the limits below. |
-| Foreground Swift BLE gateway | Source on the team's [separate iOS branch](https://github.com/Cyberchopin/reachguard/tree/feat/reach-ios-gateway/ios). Physical firmware/BLE/iPhone validation remains outstanding. |
+| Foreground Swift BLE gateway | Source on the team's [separate iOS branch](https://github.com/Cyberchopin/reachguard/tree/feat/reach-ios-gateway/ios). Teammate reports real-phone BLE/ACK and backend upload passing; source provenance is reported, backend receipts are checked directly, and hardware-event contact acceptance remains pending. |
+| Hardware-origin upload report | Teammate reports real button/BLE/Swift delivery; the operator relays an App screenshot showing Medical / Recorded by backend. The backend independently contains the matching help requests. Hardware-event contact acceptance and the full loop remain pending; see [receipt reconciliation](docs/REACH_HARDWARE_RECEIPTS_2026-10-18.md). |
 | `alert_type`, device cancellation, device help-status lookup | Not implemented in the backend device contract. Extra upload fields are rejected. Do not lend help-role credentials to the device App. |
 | Notifications, escalation, location, emergency dispatch, arrival confirmation | Not implemented. A person opens the contact page; there is no automated emergency-service delivery. |
 
@@ -105,6 +118,10 @@ For the local HTTP rehearsal, the operator supplied actual `device.upload` and `
 | Receipt → import → acceptance timestamps | Business chronology, with polling, network and human waiting where applicable | Server latency benchmarks or an SLA |
 
 Within an operation, trace/span IDs directly connect logs and spans. **There is no distributed trace spanning the inbox service, background help import and later contact/browser request.** Event IDs are deliberately omitted from telemetry: database timestamps narrow a Sentry time window but cannot prove exact event-to-trace identity. Do not sum nested durations or count human waiting as backend latency.
+
+## Next operator session
+
+Use [the overnight handoff and shortest acceptance sequence](docs/REACH_OVERNIGHT_HANDOFF_2026-10-18.md) to recover current entry points, distinguish a rotated tunnel from a stopped service, and finish the remaining hardware/contact and Sentry checks. It also records the PR review/merge order. Do not restart healthy services for documentation or retry an old accepted software test as new evidence.
 
 ## Sources and credits
 
