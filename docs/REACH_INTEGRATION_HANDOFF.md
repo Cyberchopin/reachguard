@@ -16,6 +16,8 @@ The teammate owns Arduino firmware, BLE and the Swift gateway. The backend owner
 
 ## App upload contract (implemented)
 
+For the first-stage Swift MVP, use [the audited Gateway contract](REACH_SWIFT_GATEWAY_CONTRACT.md). `alert_type`, device-credential cancellation and device-credential help status are not implemented. Do not give the App owner, contact or dashboard credentials.
+
 The App accepts **backend URL and device credential at runtime**. Never hardcode a live URL, credential or test-role authority into Swift, firmware or this repository. Obtain current values through a separate local handoff. Device ID: `nano-01`; emergency event type: `help_request`.
 
 ```http

@@ -12,6 +12,7 @@ from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel, ConfigDict, Field
+from .reach_observability import configure_reach_sentry, instrument_http, operation
 
 
 class DeviceEvent(BaseModel):
@@ -37,7 +38,7 @@ def create_app(*, device_tokens: dict[str, str], viewer_token: str, db_path: str
         db = sqlite3.connect(db_path, timeout=10)
         db.row_factory = sqlite3.Row
         try:
-            with db:
+            with operation('device.persist'), db:
                 yield db
         finally:
             db.close()
@@ -107,11 +108,13 @@ def create_app(*, device_tokens: dict[str, str], viewer_token: str, db_path: str
     def dashboard():
         return Path(__file__).with_name("device_events.html").read_text(encoding="utf-8")
 
+    instrument_http(app, device=True)
     return app
 
 
 def from_env():
     """Read only explicitly configured inbox credentials; never load .env files."""
+    configure_reach_sentry()
     try:
         tokens = json.loads(os.environ["CALLGATE_DEVICE_TOKENS"])
         viewer = os.environ["CALLGATE_DEVICE_VIEWER_TOKEN"]

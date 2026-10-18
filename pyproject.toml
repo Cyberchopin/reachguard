@@ -17,7 +17,7 @@ callgate = ["device_events.html", "demo/*.html", "demo/*.js", "demo/*.css"]
 [project.optional-dependencies]
 verification = ["cryptography==46.0.5"]
 dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
-observability = ["sentry-sdk>=2,<3"]
+observability = ["sentry-sdk>=2.72,<3"]
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
