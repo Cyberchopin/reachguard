@@ -94,8 +94,10 @@
     for(const start of [0,0.25]){const o=audio.createOscillator(),g=audio.createGain();o.frequency.value=880;g.gain.value=0.2;o.connect(g).connect(audio.destination);o.start(audio.currentTime+start);o.stop(audio.currentTime+start+0.15);}
   }
   function announce(messages){
-    feedback(messages.join(' '));beep();
-    if('Notification' in window&&Notification.permission==='granted')new Notification('Reach',{body:messages.join('\n')});
+    feedback(messages.join(' '));
+    try{beep();}catch{}
+    // Some browsers (e.g. Android Chrome) refuse page notifications without a service worker.
+    try{if('Notification' in window&&Notification.permission==='granted')new Notification('Reach',{body:messages.join('\n')});}catch{}
   }
   async function refresh(){
     try{
