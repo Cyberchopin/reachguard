@@ -114,14 +114,25 @@ def validate_entry(entry, readme, root):
 
 
 def main():
-    readme = (ROOT / 'README.md').read_text(encoding='utf-8')
     ledger = (ROOT / 'CLAIMS.md').read_text(encoding='utf-8')
     block = re.search(r'```json\n(.*?)\n```', ledger, re.S)
     if not block:
         print('CLAIMS.md missing machine-readable ledger')
         return 1
     entries = json.loads(block.group(1))
-    errors = coverage_errors(readme, entries)
+    # The inherited README moved intact to an explicitly named archive. Keep
+    # validating its original claims instead of dropping the frozen metrics.
+    allowed_documents = {'README.md', 'CALLGATE_README.md'}
+    document_names = {'README.md'} | {e.get('document', 'README.md') for e in entries}
+    documents = {}
+    errors = []
+    for name in sorted(document_names):
+        if name not in allowed_documents:
+            errors.append('Unapproved claim document')
+            continue
+        documents[name] = (ROOT / name).read_text(encoding='utf-8')
+        scoped = [e for e in entries if e.get('document', 'README.md') == name]
+        errors.extend(coverage_errors(documents[name], scoped))
     if len({e['id'] for e in entries}) != len(entries):
         errors.append('Duplicate claim IDs')
     raw = ROOT / 'evaluation_v1/pilot_results/raw.json'
@@ -133,7 +144,9 @@ def main():
         if hashlib.sha256((ROOT / path).read_bytes()).hexdigest() != digest:
             errors.append(f'Frozen evidence changed: {path}')
     for entry in entries:
-        errors.extend(validate_entry(entry, readme, ROOT))
+        document = entry.get('document', 'README.md')
+        if document in documents:
+            errors.extend(validate_entry(entry, documents[document], ROOT))
     for error in errors:
         print(error)
     print(f'registered={len(entries)} unresolved_or_inconsistent={len(errors)}')

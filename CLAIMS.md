@@ -1,6 +1,6 @@
 # Public numeric claim registry
 
-Exact numeric README sentences are bound below. Metrics are recomputed from the frozen archive; operational constants are checked against source literals. Dates, identifiers and instruction numbering are explicitly classified as nonmetrics. These source checks do not prove production safety or independent annotation. Historical test counts are checked as historical records, not asserted as current test totals.
+Exact numeric sentences in the current README and the preserved CALLGATE_README.md are bound below. Each ledger entry names its document; the original archive metrics retain their original validators. Metrics are recomputed from the frozen archive; operational constants are checked against source literals. Dates, identifiers and instruction numbering are explicitly classified as nonmetrics. These source checks do not prove production safety or independent annotation. Historical test counts are checked as historical records, not asserted as current test totals.
 
 Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered digit-bearing lines, archived-evidence edits and inconsistent metric percentages fail closed. Changes to this registry require review; no CI can prevent an authorized person from changing both code and evidence.
 
@@ -24,13 +24,15 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
           "ed25519"
         ]
       }
-    ]
+    ],
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-002",
     "quote": "The pilot contains **60 calls: 36 development and 24 initially held out**. The test set has 8 scam, 8 benign and 8 ambiguous calls. It is now revealed and retired from final improvement claims. Expansion to **600 new scenario families is planned, not completed**.",
     "evidence": "UNASSIGNED",
-    "check": "pilot_scope"
+    "check": "pilot_scope",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-003",
@@ -40,13 +42,15 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "evaluation_v1/STEP3_CONDITIONS.md"
     ],
-    "reason": "Audit date and reference identifier, not a recruitment completion metric."
+    "reason": "Audit date and reference identifier, not a recruitment completion metric.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-004",
     "quote": "Only **UNVERIFIED (23)** and **CHALLENGED (1)** appeared in the 24-call pilot. COOLING_OFF and BLOCKED have separate fixture tests. VERIFIED_BOUNDED and ESCALATED are earlier design concepts, not implemented Conversation states. Neither BLOCKED nor COOLING_OFF hangs up a call.",
     "evidence": "UNASSIGNED",
-    "check": "state_counts"
+    "check": "state_counts",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-005",
@@ -60,14 +64,16 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
           "python-version: '3.12'"
         ]
       }
-    ]
+    ],
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-006",
     "quote": "| Windows PowerShell | `./.venv/Scripts/Activate.ps1` |",
     "evidence": "UNASSIGNED",
     "check": "nonmetric_reference",
-    "reason": "PowerShell activation command filename; no measured quantity."
+    "reason": "PowerShell activation command filename; no measured quantity.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-007",
@@ -82,7 +88,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
           "default=8767"
         ]
       }
-    ]
+    ],
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-008",
@@ -92,7 +99,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "callgate/workflow.py"
     ],
-    "reason": "Ordered instructions, not a numerical measurement."
+    "reason": "Ordered instructions, not a numerical measurement.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-009",
@@ -102,7 +110,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "callgate/workflow.py"
     ],
-    "reason": "Ordered instructions, not a numerical measurement."
+    "reason": "Ordered instructions, not a numerical measurement.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-010",
@@ -112,7 +121,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "callgate/workflow.py"
     ],
-    "reason": "Ordered instructions, not a numerical measurement."
+    "reason": "Ordered instructions, not a numerical measurement.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-011",
@@ -122,7 +132,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "callgate/workflow.py"
     ],
-    "reason": "Ordered instructions, not a numerical measurement."
+    "reason": "Ordered instructions, not a numerical measurement.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-012",
@@ -132,7 +143,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "callgate/workflow.py"
     ],
-    "reason": "Ordered instructions, not a numerical measurement."
+    "reason": "Ordered instructions, not a numerical measurement.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-013",
@@ -151,47 +163,54 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
         "path": "docs/V2_PHASE1.md",
         "literals": []
       }
-    ]
+    ],
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-014",
     "quote": "| Precision | 100.0% — 1 predicted positive | 40.0% |",
     "evidence": "evaluation_v1/pilot_results/results.json",
     "check": "metric_row",
-    "metric": "precision"
+    "metric": "precision",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-015",
     "quote": "| Recall | 12.5% — 1 of 8 scam calls | 25.0% |",
     "evidence": "evaluation_v1/pilot_results/results.json",
     "check": "metric_row",
-    "metric": "recall"
+    "metric": "recall",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-016",
     "quote": "| F1 | **22.2%** | **30.8%** |",
     "evidence": "evaluation_v1/pilot_results/results.json",
     "check": "metric_row",
-    "metric": "f1"
+    "metric": "f1",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-017",
     "quote": "| False-positive rate | 0.0% — 0 of 8 benign calls | 37.5% |",
     "evidence": "evaluation_v1/pilot_results/results.json",
     "check": "metric_row",
-    "metric": "fpr"
+    "metric": "fpr",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-018",
     "quote": "These metrics use **16 binary-labeled calls**. The other 8 are ambiguous and reported separately; both systems returned negative predictions for all 8. This is not evidence of successful ambiguity detection.",
     "evidence": "UNASSIGNED",
-    "check": "binary_counts"
+    "check": "binary_counts",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-019",
     "quote": "Uncertainty is substantial: CallGate precision has a **95% interval of 20.7%–100%**, and recall **2.2%–47.1%**. Read the [full report](evaluation_v1/pilot_results/REPORT.md) for every interval, denominator and methodological limitation.",
     "evidence": "UNASSIGNED",
-    "check": "intervals"
+    "check": "intervals",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-020",
@@ -201,7 +220,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "evaluation_v1/README.md"
     ],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-021",
@@ -211,7 +231,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "evaluation_v1/README.md"
     ],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-022",
@@ -221,14 +242,16 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "evaluation_v1/README.md"
     ],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-023",
     "quote": "Recorded local checks: **184 Python tests and 3 Node logic tests passed**. These counts do not establish real-world accuracy or a green remote CI run. Check [GitHub Actions](https://github.com/Cyberchopin/CallGate_PreHackathon_Research/actions) for remote execution status.",
     "evidence": "scambench/local-check.json; actual node --test output recorded in BUILD_LOG",
     "check": "historical_tests",
-    "node_test_record": 3
+    "node_test_record": 3,
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-024",
@@ -248,7 +271,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
           "callgate-metrics.sqlite3"
         ]
       }
-    ]
+    ],
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-025",
@@ -258,7 +282,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "docs/V2_PHASE1.md"
     ],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-026",
@@ -268,7 +293,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "evaluation_v1/README.md"
     ],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-027",
@@ -278,7 +304,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "docs/V2_PHASE1.md"
     ],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-028",
@@ -288,7 +315,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "evaluation_v1/README.md"
     ],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-029",
@@ -296,7 +324,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "evidence": "UNASSIGNED",
     "check": "nonmetric_reference",
     "references": [],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-030",
@@ -304,14 +333,16 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "evidence": "UNASSIGNED",
     "check": "nonmetric_reference",
     "references": [],
-    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics."
+    "reason": "Repository paths, version identifiers or provenance commit IDs, not measured statistics.",
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-031",
     "quote": "A deny-all system can also have no unauthorized executions while helping nobody. Therefore authorization safety must be reported alongside legitimate-request completion rate and verification time. Population-level utility is **not yet measured**. The connected demo's approval tests prove a simulated path exists, not that real people complete it successfully. Prospective evaluation belongs in `evaluation_v2/`; do not tune on its blind annotation inputs.",
     "check": "nonmetric_reference",
     "reason": "Prospective evaluation folder name, no performance metric.",
-    "references": []
+    "references": [],
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-032",
@@ -321,7 +352,8 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
     "references": [
       "FEATURE_LEDGER.md",
       "docs/DEVICE_EVENTS.md"
-    ]
+    ],
+    "document": "CALLGATE_README.md"
   },
   {
     "id": "readme-033",
@@ -367,7 +399,234 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
           "## UCLA onsite increment — 2026-10-17"
         ]
       }
+    ],
+    "document": "CALLGATE_README.md"
+  },
+  {
+    "id": "reach-readme-001",
+    "document": "README.md",
+    "quote": "    S[\"Local HTTP test or iPhone Shortcut\"] --> U[\"Three-field upload · 8780\"]",
+    "check": "source_literals",
+    "sources": [
+      {
+        "path": "scripts/start_device_events.py",
+        "literals": [
+          "port=8780"
+        ]
+      }
     ]
+  },
+  {
+    "id": "reach-readme-002",
+    "document": "README.md",
+    "quote": "    I --> H[\"Help service imports request · 8783\"]",
+    "check": "source_literals",
+    "sources": [
+      {
+        "path": "scripts/start_help_demo.py",
+        "literals": [
+          "default=8783"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reach-readme-003",
+    "document": "README.md",
+    "quote": "The same test has one applied acceptance, reconciled with its backend receipt and audit history. The receipt-to-acceptance interval includes human waiting and is not server latency. [Exact timestamps, event reconciliation, capture provenance and timing limits](docs/REACH_SOFTWARE_TEST_2026-10-18.md).",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/REACH_SOFTWARE_TEST_2026-10-18.md"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-004",
+    "document": "README.md",
+    "quote": "1. **Choose and label the client.** Use a Shortcut for a phone rehearsal, or an operator's local HTTP client for a software-only rehearsal. Report which one was actually used. POST to `/api/device-events`, with `Authorization: Bearer <device credential>` and `Content-Type: application/json`. Use a new, explicitly marked software-test ID:",
+    "check": "nonmetric_reference",
+    "references": [
+      "callgate/device_events.py",
+      "docs/REACH_SWIFT_GATEWAY_CONTRACT.md"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-005",
+    "document": "README.md",
+    "quote": "     \"device_id\": \"nano-01\",",
+    "check": "source_literals",
+    "sources": [
+      {
+        "path": "scripts/start_help_demo.py",
+        "literals": [
+          "nano-01"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reach-readme-006",
+    "document": "README.md",
+    "quote": "   Replace the ID marker with `local-test-shortcut-…` when the actual uploader is a Shortcut. First durable receipt returns **201 / received**. Retrying the same alarm must retain the same three fields and ID; it returns **200 / duplicate**. Neither result confirms contact delivery or acceptance.",
+    "check": "source_literals",
+    "sources": [
+      {
+        "path": "callgate/device_events.py",
+        "literals": [
+          "status_code=201 if inserted else 200",
+          "\"received\" if inserted else \"duplicate\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reach-readme-007",
+    "document": "README.md",
+    "quote": "2. **Inspect the request.** Open `/contact`, enter separate contact access, connect and select this test. New requests deliberately do not replace the current selection. Check **Local test** and **Recorded by backend**.",
+    "check": "nonmetric_reference",
+    "references": [
+      "callgate/demo/help.js",
+      "callgate/demo/help-contact.html"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-008",
+    "document": "README.md",
+    "quote": "3. **Make the human decision.** The operator playing the contact taps **I can help** and waits for **Contact accepted**. An automated assistant must not make that decision for the demonstration.",
+    "check": "nonmetric_reference",
+    "references": [
+      "callgate/demo/help.js",
+      "docs/REACH_SOFTWARE_TEST_2026-10-18.md"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-009",
+    "document": "README.md",
+    "quote": "4. **Verify the Dashboard.** Open `/`, connect with read-only Dashboard access, select the same request and inspect its acceptance history. The two-second browser polling interval is not server processing latency.",
+    "check": "nonmetric_reference",
+    "references": [
+      "callgate/demo/help-dashboard.html",
+      "callgate/demo/help.js"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-010",
+    "document": "README.md",
+    "quote": "For a separate development checkout, use Python 3.12:",
+    "check": "source_literals",
+    "sources": [
+      {
+        "path": ".github/workflows/test.yml",
+        "literals": [
+          "python-version: '3.12'"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reach-readme-011",
+    "document": "README.md",
+    "quote": "Read [device configuration](docs/DEVICE_EVENTS.md) before starting 8780 and [the integration handoff](docs/REACH_INTEGRATION_HANDOFF.md) before starting 8783. The help demo does not require legacy payment, speech or reviewer services.",
+    "check": "source_literals",
+    "sources": [
+      {
+        "path": "scripts/start_device_events.py",
+        "literals": [
+          "port=8780"
+        ]
+      },
+      {
+        "path": "scripts/start_help_demo.py",
+        "literals": [
+          "default=8783"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reach-readme-012",
+    "document": "README.md",
+    "quote": "| Local HTTP → manual contact acceptance | An explicitly marked test uploaded over actual public HTTPS; operator clicked acceptance; reconciliation found exactly one applied contact acceptance and Dashboard displayed accepted. See [this rehearsal](docs/REACH_SOFTWARE_TEST_2026-10-18.md). |",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/REACH_SOFTWARE_TEST_2026-10-18.md",
+      "docs/reach-software-test-2026-10-18.json"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-013",
+    "document": "README.md",
+    "quote": "| Shortcut → iPhone contact acceptance | Operator-confirmed software/phone run, reconciled with persisted receipt and acceptance; see [phone evidence](docs/IPHONE_HELP_VERIFICATION_2026-10-17.md). This does not prove a button press. |",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/IPHONE_HELP_VERIFICATION_2026-10-17.md"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-014",
+    "document": "README.md",
+    "quote": "Logs keep fixed operation names, outcomes, measured duration, optional HTTP status and generated trace/span IDs. They omit credentials, bodies, event/device/actor IDs, SQL, private URLs, database paths and exception text. Automatic SDK integrations are disabled. [The observability record](docs/SENTRY_OBSERVABILITY.md) documents the actual DSN-path 404 diagnosis, corrected smoke envelopes returning 200, and subsequent operator-confirmed UI visibility. No secret is committed.",
+    "check": "source_literals",
+    "sources": [
+      {
+        "path": "docs/SENTRY_OBSERVABILITY.md",
+        "literals": [
+          "HTTP 404",
+          "HTTP 200",
+          "operator confirmed"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reach-readme-015",
+    "document": "README.md",
+    "quote": "For the local HTTP rehearsal, the operator supplied actual `device.upload` and `device.persist` business logs sharing one trace. Their measured durations and exact evidence boundaries are recorded in [the rehearsal evidence](docs/REACH_SOFTWARE_TEST_2026-10-18.md); they are not interchangeable with the client round-trip time or human response interval.",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/REACH_SOFTWARE_TEST_2026-10-18.md",
+      "docs/reach-software-test-2026-10-18.json"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-016",
+    "document": "README.md",
+    "quote": "ReachGuard builds on **CallGate**, an existing MIT-licensed codebase with speech-risk research, simulated payment verification, tests and documentation. Runnable work predates this event; the entire repository is not claimed as hackathon-built. The new repository imported that snapshot at `ad83e91`. [BUILD_LOG.md](BUILD_LOG.md) and [the corrected historical boundary notice](PRE_HACKATHON_BOUNDARY.md) preserve that distinction. [The legacy CallGate README](CALLGATE_README.md) retains its overview and evaluation limitations.",
+    "check": "nonmetric_reference",
+    "references": [
+      "BUILD_LOG.md",
+      "PRE_HACKATHON_BOUNDARY.md",
+      "CALLGATE_README.md"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-017",
+    "document": "README.md",
+    "quote": "- **Reach backend/web:** device inbox, independent help state, scoped pages, recovery and observability are documented in the handoff/build log. Sentry synchronization is recorded in `454e3c0`.",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/SENTRY_OBSERVABILITY.md",
+      "BUILD_LOG.md"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-018",
+    "document": "README.md",
+    "quote": "- **iOS gateway:** maintained on `feat/reach-ios-gateway`. Its handoff credits the protocol to the team's [wearable firmware repository](https://github.com/Iridium0317/WearableEmergencyAssistanceSystem). Attribution does not establish hardware validation.",
+    "check": "nonmetric_reference",
+    "references": [
+      "docs/REACH_INTEGRATION_HANDOFF.md"
+    ],
+    "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
   }
 ]
 ```

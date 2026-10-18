@@ -1,0 +1,105 @@
+{
+  "classification": "LOCAL_HTTP_PUBLIC_HTTPS_TEST_NOT_IPHONE_SHORTCUT_OR_BLE",
+  "event_id": "local-test-http-20261018T081156Z-78b3b9d5",
+  "request": {
+    "event_id": "local-test-http-20261018T081156Z-78b3b9d5",
+    "device_id": "nano-01",
+    "event_type": "help_request"
+  },
+  "http_status": 201,
+  "response": {
+    "status": "received",
+    "event": {
+      "event_id": "local-test-http-20261018T081156Z-78b3b9d5",
+      "device_id": "nano-01",
+      "event_type": "help_request",
+      "received_at": "2026-10-18T08:11:56.186178+00:00"
+    },
+    "intent_only": true
+  },
+  "request_started_at": "2026-10-18T08:11:56.067801+00:00",
+  "request_finished_at": "2026-10-18T08:11:56.225654+00:00",
+  "client_https_roundtrip_ms": 156.118,
+  "contact_action_automated": false,
+  "business": {
+    "event_id": "local-test-http-20261018T081156Z-78b3b9d5",
+    "received_at": "2026-10-18T08:11:56.186178+00:00",
+    "imported_at": "2026-10-18T08:11:56.277935+00:00",
+    "status": "accepted",
+    "version": 1,
+    "receipt_to_acceptance_seconds": 134.355111,
+    "import_to_acceptance_seconds": 134.263354
+  },
+  "audit": [
+    {
+      "command": "record",
+      "result": "applied",
+      "at": "2026-10-18T08:11:56.277935+00:00",
+      "actor_role": "source"
+    },
+    {
+      "command": "accept",
+      "result": "applied",
+      "at": "2026-10-18T08:14:10.541289+00:00",
+      "actor_role": "contact"
+    }
+  ],
+  "assigned_contact_match": true,
+  "operator_confirmed_contact_accepted": true,
+  "sentry": {
+    "source": "operator-pasted Sentry Logs fields, not an authenticated agent API read",
+    "event_binding": "temporal correlation only; event_id is omitted from telemetry",
+    "logs": [
+      {
+        "step": "device.upload",
+        "duration_ms": 24.499,
+        "http_status": 201,
+        "outcome": "ok",
+        "ui_timestamp": "Oct 18, 1:11:56.206 AM",
+        "timestamp_utc": "2026-10-18T08:11:56.206Z",
+        "trace_id": "834071b8e04440bb806d78eb93449c3b",
+        "span_id": "8d1b497d198e152d"
+      },
+      {
+        "step": "device.persist",
+        "duration_ms": 17.934,
+        "outcome": "ok",
+        "ui_timestamp": "Oct 18, 1:11:56.204 AM",
+        "timestamp_utc": "2026-10-18T08:11:56.204Z",
+        "trace_id": "834071b8e04440bb806d78eb93449c3b",
+        "span_id": "a61bd36d4d64280d"
+      }
+    ],
+    "ui_timezone_interpretation": "America/Los_Angeles, consistent with the event UTC window; pasted UI fields did not include a timezone suffix",
+    "excluded_background_observations": [
+      {
+        "step": "help.sync",
+        "duration_ms": 1.599,
+        "outcome": "ok",
+        "ui_timestamp": "Oct 18, 1:16:54.891 AM",
+        "timestamp_utc": "2026-10-18T08:16:54.891Z",
+        "trace_id": "d7d99119886b4f698f8d508b6c4b1019",
+        "span_id": "b95e3456e03d4cf4",
+        "reason": "Later than import and acceptance; not evidence of this event import."
+      },
+      {
+        "step": "help.sync",
+        "duration_ms": 1.646,
+        "outcome": "ok",
+        "ui_timestamp": "Oct 18, 1:17:57.234 AM",
+        "timestamp_utc": "2026-10-18T08:17:57.234Z",
+        "trace_id": "8a2832c9b7c8464a9fceda94397e73d4",
+        "span_id": "bb6faec2dec3962d",
+        "reason": "Later than import and acceptance; not evidence of this event import."
+      }
+    ],
+    "verification_status": {
+      "upload_and_persistence_log_trace_ids_match": true,
+      "business_trace_detail_tree_independently_exported": false,
+      "first_import_sentry_record_supplied": false,
+      "contact_response_sentry_record_supplied": false,
+      "dashboard_read_sentry_record_supplied": false,
+      "cross_service_event_trace_join_supported": false
+    }
+  }
+}
