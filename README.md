@@ -12,7 +12,7 @@ Authenticated requests · Separate contact access · Visible acknowledgement
 
 ReachGuard records a help request, lets an assigned contact explicitly choose **I can help**, and shows **Contact accepted** on a separate Dashboard. Upload success means the backend saved the request. Acceptance means the contact acknowledged responsibility; it does not mean help has arrived.
 
-The recorded software rehearsal uses a deliberately marked local HTTP client over public HTTPS. Separately, the teammate reports a real button → BLE → Swift → backend receipt, supported by an App screenshot relayed by the operator and matching backend records checked directly. Contact acceptance for those hardware-origin events remains pending in the recorded snapshot; the full hardware-to-contact loop is not yet accepted.
+The recorded software rehearsal uses a deliberately marked local HTTP client over public HTTPS. Separately, the teammate reports a real button → BLE → Swift → backend receipt, supported by an App screenshot relayed by the operator and matching backend records checked directly. The full hardware-to-contact loop has since been run once: a real Emergency hold on the pendant went over BLE to the iPhone gateway, was recorded by the backend, and was accepted on the contact page (full-chain record in [device/TEST_RESULTS.md](device/TEST_RESULTS.md)).
 
 ## The acknowledgement loop
 
@@ -27,6 +27,8 @@ flowchart LR
 ```
 
 Opening the contact page does not accept a request. Device, contact, owner and Dashboard access are separate. A device gateway cannot accept its own request using its upload credential.
+
+The pendant firmware and the iPhone home gateway are in [device/](device/README.md), with their own tests in CI.
 
 Full system, from the pendant through the iPhone home gateway to the contact pages, with the life of one alert and the design decisions: [Reach system architecture](docs/REACH_SYSTEM_ARCHITECTURE.md).
 

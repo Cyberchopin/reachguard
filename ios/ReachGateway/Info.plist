@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>连接 Reach 手环，接收按钮报警并回传接收确认。</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>局域网联调时把求助事件上传到本地后端。</string>
+</dict>
+</plist>

@@ -60,9 +60,10 @@ sequenceDiagram
     Note over B,F: accepted = someone took responsibility,<br/>not "help has arrived"
 ```
 
-The rotation loop is in [PR #5](https://github.com/Cyberchopin/reachguard/pull/5)
-(not yet merged). Without it the help service notifies one assigned contact, as
-described in the README.
+The rotation loop was added in [PR #5](https://github.com/Cyberchopin/reachguard/pull/5)
+and is enabled with `--contacts`; without it the help service notifies one
+assigned contact, as described in the README. "I can't help" passes the request
+to the next contact; it ends only when every contact has declined.
 
 ## Design decisions
 
