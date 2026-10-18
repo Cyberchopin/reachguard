@@ -103,11 +103,41 @@ def test_owner_cancel_stops_rotation(demo):
     assert respond(client,'c1').status_code==409
 
 
-def test_unable_keeps_its_existing_meaning(demo):
+def test_unable_passes_to_the_next_contact_at_once(demo):
     store,client,clock,*_=demo
-    assert respond(client,'c1',response='unable').json()['request']['status']=='unable_to_help'
+    passed=respond(client,'c1',response='unable')
+    assert passed.status_code==200 and passed.json()['request']['status']=='recorded'
+    assert notified(store)==[('notify','daughter'),('notify','son')]
+    assert visible(client,'c2')==['help-1']
+    assert respond(client,'c2','a2').json()['request']['status']=='accepted'
+
+
+def test_rotation_skips_contacts_who_declined(demo):
+    store,client,clock,*_=demo
+    respond(client,'c1',response='unable')                     # daughter declines -> son
+    clock.advance(20);store.sync()                              # son times out -> neighbour
+    clock.advance(20);store.sync()                              # neighbour times out -> son, round 2
+    row=store.get('help-1',PRINCIPALS['owner'])
+    assert row['rotation']['current_contact']=='son' and row['rotation']['round']==2
+    assert [a for c,a in notified(store) if c=='notify'].count('daughter')==1
+
+
+def test_request_ends_unable_only_when_everyone_declined(demo):
+    store,client,clock,*_=demo
+    respond(client,'c1','a1',response='unable')
+    respond(client,'c2','a2',response='unable')
+    last=respond(client,'c3','a3',response='unable')
+    assert last.json()['request']['status']=='unable_to_help'
     clock.advance(200);store.sync()
-    assert notified(store)==[('notify','daughter')]
+    assert [c for c,_ in notified(store)].count('notify')==3
+
+
+def test_declined_contact_can_still_accept_but_not_decline_twice(demo):
+    store,client,clock,*_=demo
+    respond(client,'c1','a1',response='unable')
+    again=respond(client,'c1','a2',response='unable')
+    assert again.status_code==409 and again.json()['action']['reason']=='ALREADY_DECLINED'
+    assert respond(client,'c1','a3').json()['request']['status']=='accepted'
 
 
 def test_restart_resumes_where_it_stopped_without_replaying(demo):

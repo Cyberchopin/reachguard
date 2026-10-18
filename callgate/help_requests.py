@@ -76,6 +76,9 @@ class HelpStore:
                 CREATE TABLE IF NOT EXISTS help_notified (
                     event_id TEXT NOT NULL REFERENCES help_requests(event_id), contact_id TEXT NOT NULL,
                     PRIMARY KEY (event_id, contact_id));
+                CREATE TABLE IF NOT EXISTS help_declined (
+                    event_id TEXT NOT NULL REFERENCES help_requests(event_id), contact_id TEXT NOT NULL,
+                    PRIMARY KEY (event_id, contact_id));
             ''')
         self.last_sync = None
         self.sync()
@@ -138,8 +141,23 @@ class HelpStore:
         db.execute('INSERT INTO help_audit (event_id,action_id,actor_role,actor_id,command,before_state,after_state,result,reason,at) VALUES (?,NULL,?,?,?,?,?,?,?,?)',
             (rotation['event_id'],'system',contacts[rotation['position']],'timeout','recorded','recorded','applied',
              f'no acceptance within {int(self.wait.total_seconds())} s',at.isoformat()))
-        position = (rotation['position'] + 1) % len(contacts)
-        self.notify(db, rotation['event_id'], contacts, position, rotation['round'] + (position == 0), at)
+        self.advance(db, rotation, at)
+
+    def advance(self, db, rotation, at):
+        # Notify the next scheduled contact, skipping anyone who answered unable.
+        contacts = json.loads(rotation['contacts'])
+        declined = self.declined(db, rotation['event_id'])
+        position, round_ = rotation['position'], rotation['round']
+        for _ in contacts:
+            position = (position + 1) % len(contacts)
+            round_ += position == 0
+            if contacts[position] not in declined:
+                break
+        self.notify(db, rotation['event_id'], contacts, position, round_, at)
+
+    @staticmethod
+    def declined(db, event_id):
+        return {r['contact_id'] for r in db.execute('SELECT contact_id FROM help_declined WHERE event_id=?', (event_id,))}
 
     @observed('help.rotate')
     def rotate(self):
@@ -221,11 +239,25 @@ class HelpStore:
             before=row['status']
             valid = before!='cancelled' if command=='cancel' else before=='recorded'
             after = {'accept':'accepted','unable':'unable_to_help','cancel':'cancelled'}[command] if valid else before
-            result = 'applied' if valid else 'rejected'
             reason = None if valid else 'TRANSITION_NOT_ALLOWED'
+            rotation = db.execute('SELECT * FROM help_rotation WHERE event_id=?',(event_id,)).fetchone()
+            passed_on = False
+            if command=='unable' and valid and rotation is not None:
+                # With rotation, unable passes the request to the next contact;
+                # it ends only when every contact in the schedule has declined.
+                declined = self.declined(db, event_id)
+                if principal.actor_id in declined:
+                    valid, after, reason = False, before, 'ALREADY_DECLINED'
+                else:
+                    db.execute('INSERT INTO help_declined VALUES (?,?)', (event_id, principal.actor_id))
+                    if set(json.loads(rotation['contacts'])) - declined - {principal.actor_id}:
+                        after, reason, passed_on = 'recorded', 'passed to the next contact', True
+            result = 'applied' if valid else 'rejected'
             db.execute('INSERT INTO help_audit (event_id,action_id,actor_role,actor_id,command,before_state,after_state,result,reason,at) VALUES (?,?,?,?,?,?,?,?,?,?)',
                 (event_id,action_id,principal.role,principal.actor_id,command,before,after,result,reason,utc_now()))
-            if valid:
+            if passed_on:
+                self.advance(db, rotation, self.now())
+            elif valid:
                 db.execute('UPDATE help_requests SET status=?,version=version+1 WHERE event_id=?',(after,event_id))
             updated=self.find(db,event_id,principal)
             action=dict(db.execute('SELECT * FROM help_audit WHERE action_id=?',(action_id,)).fetchone())
