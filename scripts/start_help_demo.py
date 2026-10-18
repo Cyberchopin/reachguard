@@ -13,6 +13,7 @@ import socket
 import uvicorn
 from callgate.help_requests import HelpStore, HelpPrincipal
 from callgate.help_transport import create_help_app
+from callgate.reach_observability import configure_reach_sentry
 
 
 def provision(runtime):
@@ -51,6 +52,7 @@ def main():
         identities={p.role:p for p in credentials.values()}
         devices=set(identities['owner'].device_ids)&set(identities['contact'].device_ids)
         routes={device:{'owner':identities['owner'].actor_id,'contact':identities['contact'].actor_id} for device in devices}
+        configure_reach_sentry()
         store=HelpStore(args.inbox_db,runtime/'help.sqlite3',routes)
         app=create_help_app(store,credentials)
         (runtime/'service.pid').write_text(str(os.getpid()))

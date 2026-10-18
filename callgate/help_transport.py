@@ -13,6 +13,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from pydantic import BaseModel, ConfigDict, Field
 
 from .help_requests import HelpStore, HelpPrincipal, HelpNotFound
+from .reach_observability import instrument_http
 
 ASSETS=Path(__file__).with_name('demo')
 
@@ -135,4 +136,5 @@ def create_help_app(store:HelpStore, credentials:dict[str,HelpPrincipal]):
         code,result=store.act(event_id,body.action_id,p,'cancel')
         return JSONResponse(result,status_code=code)
 
+    instrument_http(app)
     return app

@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 import sqlite3
+from .reach_observability import observed, operation
 
 
 def utc_now():
@@ -59,11 +60,12 @@ class HelpStore:
         db.row_factory = sqlite3.Row
         db.execute('PRAGMA foreign_keys=ON')
         try:
-            with db:
+            with operation('help.persist'), db:
                 yield db
         finally:
             db.close()
 
+    @observed('help.sync')
     def sync(self):
         # Lock only the new database; hold no source lock while writing audit.
         while True:
@@ -107,11 +109,13 @@ class HelpStore:
         return {**dict(row), 'history':[dict(action) for action in db.execute(
             'SELECT * FROM help_audit WHERE event_id=? ORDER BY seq',(row['event_id'],))]}
 
+    @observed('help.read')
     def get(self, event_id, principal):
         self.sync()
         with self.db() as db:
             return self.view(db, self.find(db,event_id,principal))
 
+    @observed('help.list')
     def list(self, principal):
         self.sync()
         with self.db() as db:
