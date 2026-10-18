@@ -243,15 +243,20 @@ class HelpStore:
             rotation = db.execute('SELECT * FROM help_rotation WHERE event_id=?',(event_id,)).fetchone()
             passed_on = False
             if command=='unable' and valid and rotation is not None:
-                # With rotation, unable passes the request to the next contact;
-                # it ends only when every contact in the schedule has declined.
+                # Only the current contact's decline advances the window.
+                # A late decline is retained for future turns; the request ends
+                # only when every distinct contact has declined.
                 declined = self.declined(db, event_id)
                 if principal.actor_id in declined:
                     valid, after, reason = False, before, 'ALREADY_DECLINED'
                 else:
                     db.execute('INSERT INTO help_declined VALUES (?,?)', (event_id, principal.actor_id))
-                    if set(json.loads(rotation['contacts'])) - declined - {principal.actor_id}:
-                        after, reason, passed_on = 'recorded', 'passed to the next contact', True
+                    contacts = json.loads(rotation['contacts'])
+                    if set(contacts) - declined - {principal.actor_id}:
+                        after = 'recorded'
+                        passed_on = principal.actor_id == contacts[rotation['position']]
+                        reason = ('passed to the next contact' if passed_on else
+                                  'decline recorded; current contact keeps waiting')
             result = 'applied' if valid else 'rejected'
             db.execute('INSERT INTO help_audit (event_id,action_id,actor_role,actor_id,command,before_state,after_state,result,reason,at) VALUES (?,?,?,?,?,?,?,?,?,?)',
                 (event_id,action_id,principal.role,principal.actor_id,command,before,after,result,reason,utc_now()))

@@ -205,3 +205,57 @@ def test_schedule_with_repeats_alternates_family_then_others(tmp_path):
     # A repeated contact is still one contact: they see the request once and can accept it.
     assert [r['event_id'] for r in store.list(PRINCIPALS['c1'])]==['help-1']
     assert store.act('help-1','a1',PRINCIPALS['c1'],'accept')[1]['request']['status']=='accepted'
+
+
+def test_late_unable_preserves_current_contacts_wait_window(demo):
+    store,client,clock,*_=demo
+    clock.advance(20);store.sync()  # contact 1 timed out; contact 2 begins
+    before=store.get('help-1',PRINCIPALS['owner'])['rotation'].copy()
+    clock.advance(5)
+    result=respond(client,'c1','late-unable',response='unable')
+    assert result.status_code==200
+    assert result.json()['action']['result']=='applied'
+    assert result.json()['request']['status']=='recorded'
+    with store.db() as db:
+        assert store.declined(db,'help-1')=={'daughter'}
+    assert respond(client,'c1','late-unable',response='unable').json()['duplicate'] is True
+    assert respond(client,'c1','late-unable-again',response='unable').status_code==409
+    after=store.get('help-1',PRINCIPALS['owner'])['rotation']
+    assert after==before, f'late unable advanced active window: {before} -> {after}'
+    clock.advance(14);store.sync()
+    assert store.get('help-1',PRINCIPALS['owner'])['rotation']==before
+    clock.advance(1);store.sync()
+    assert store.get('help-1',PRINCIPALS['owner'])['rotation']['current_contact']=='neighbour'
+
+
+def test_late_decline_is_skipped_in_later_round_and_all_declined_ends(demo):
+    store,client,clock,*_=demo
+    clock.advance(20);store.sync()
+    respond(client,'c1','late-unable',response='unable')
+    clock.advance(20);store.sync()  # contact 2's full window expires
+    assert store.get('help-1',PRINCIPALS['owner'])['rotation']['current_contact']=='neighbour'
+    passed=respond(client,'c3','third-unable',response='unable')
+    assert passed.json()['request']['rotation']['current_contact']=='son'
+    assert passed.json()['request']['rotation']['round']==2
+    last=respond(client,'c2','second-unable',response='unable')
+    assert last.json()['request']['status']=='unable_to_help'
+    history=notified(store)
+    clock.advance(100);store.sync()
+    assert notified(store)==history
+
+
+def test_late_unable_preserves_window_with_repeated_contact_schedule(demo):
+    store,client,clock,upload,source,state=demo
+    # An independent synthetic request using the same Level 1 repeated schedule.
+    upload('repeated')
+    repeated=HelpStore(source,state,{'nano-01':{**ROUTES['nano-01'],
+        'contacts':['daughter','son','daughter','son','neighbour']}},now=clock)
+    clock.advance(20);repeated.sync()
+    before=repeated.get('repeated',PRINCIPALS['owner'])['rotation'].copy()
+    clock.advance(5)
+    assert repeated.act('repeated','late-repeat',PRINCIPALS['c1'],'unable')[0]==200
+    assert repeated.get('repeated',PRINCIPALS['owner'])['rotation']==before
+    clock.advance(15);repeated.sync()
+    row=repeated.get('repeated',PRINCIPALS['owner'])
+    assert row['rotation']['current_contact']=='son'
+    assert row['rotation']['position']==3  # skip the declined repeat of daughter
