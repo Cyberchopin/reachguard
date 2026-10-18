@@ -1,0 +1,2537 @@
+{
+  "timestamp_utc": "2026-09-09T04:17:55.172440+00:00",
+  "audio": "benign-call.wav",
+  "test_type": "live_provider_synthetic_audio",
+  "updates": [
+    {
+      "received_ms": 924,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 0,
+        "text": "",
+        "start_ms": 560,
+        "end_ms": 640,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 1580,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 1,
+        "text": "Hello, I",
+        "start_ms": 560,
+        "end_ms": 1200,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 1890,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 2,
+        "text": "Hello, I am",
+        "start_ms": 560,
+        "end_ms": 1520,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 2102,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 3,
+        "text": "Hello, I am calling",
+        "start_ms": 560,
+        "end_ms": 1760,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 2516,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 4,
+        "text": "Hello, I am calling to",
+        "start_ms": 560,
+        "end_ms": 2160,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 2914,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 5,
+        "text": "Hello, I am calling to confirm",
+        "start_ms": 560,
+        "end_ms": 2400,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 3416,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 6,
+        "text": "Hello, I am calling to confirm our",
+        "start_ms": 560,
+        "end_ms": 2800,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 3716,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 7,
+        "text": "Hello, I am calling to confirm our lunch",
+        "start_ms": 560,
+        "end_ms": 3040,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 4286,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 8,
+        "text": "Hello, I am calling to confirm our lunch tomorrow.",
+        "start_ms": 560,
+        "end_ms": 3040,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 4791,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 0,
+        "text": "We",
+        "start_ms": 4000,
+        "end_ms": 4080,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 5147,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 1,
+        "text": "We will",
+        "start_ms": 4000,
+        "end_ms": 4400,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 5331,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 2,
+        "text": "We will meet",
+        "start_ms": 4000,
+        "end_ms": 4640,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 5924,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 3,
+        "text": "We will meet at",
+        "start_ms": 4000,
+        "end_ms": 5120,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 6215,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 4,
+        "text": "We will meet at 12.",
+        "start_ms": 4000,
+        "end_ms": 5120,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 6763,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 0,
+        "text": "",
+        "start_ms": 5840,
+        "end_ms": 5920,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 5920,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 6924,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 1,
+        "text": "Have a",
+        "start_ms": 5840,
+        "end_ms": 6080,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 5920,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 7232,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 2,
+        "text": "Have a nice",
+        "start_ms": 5840,
+        "end_ms": 6320,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 5920,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 6320,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 7835,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 3,
+        "text": "Have a nice day.",
+        "start_ms": 5840,
+        "end_ms": 6320,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 5920,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 6320,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 6320,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 11323,
+      "transcript": {
+        "segment_id": "aai-3",
+        "revision": 0,
+        "text": "",
+        "start_ms": 0,
+        "end_ms": 0,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 640,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1200,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1520,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1760,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 2160,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2400,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2800,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3040,
+            "segment_id": "aai-0",
+            "revision": 8,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 4080,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4640,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 5120,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 5920,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 6320,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 6320,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 18,
+            "audio_ms": 0,
+            "segment_id": "aai-3",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    }
+  ],
+  "final": {
+    "status": "snapshot",
+    "state": "UNVERIFIED",
+    "events": [],
+    "timeline": [
+      {
+        "sequence": 0,
+        "audio_ms": 640,
+        "segment_id": "aai-0",
+        "revision": 0,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 1,
+        "audio_ms": 1200,
+        "segment_id": "aai-0",
+        "revision": 1,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 2,
+        "audio_ms": 1520,
+        "segment_id": "aai-0",
+        "revision": 2,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 3,
+        "audio_ms": 1760,
+        "segment_id": "aai-0",
+        "revision": 3,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 4,
+        "audio_ms": 2160,
+        "segment_id": "aai-0",
+        "revision": 4,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 5,
+        "audio_ms": 2400,
+        "segment_id": "aai-0",
+        "revision": 5,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 6,
+        "audio_ms": 2800,
+        "segment_id": "aai-0",
+        "revision": 6,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 7,
+        "audio_ms": 3040,
+        "segment_id": "aai-0",
+        "revision": 7,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 8,
+        "audio_ms": 3040,
+        "segment_id": "aai-0",
+        "revision": 8,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 9,
+        "audio_ms": 4080,
+        "segment_id": "aai-1",
+        "revision": 0,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 10,
+        "audio_ms": 4400,
+        "segment_id": "aai-1",
+        "revision": 1,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 11,
+        "audio_ms": 4640,
+        "segment_id": "aai-1",
+        "revision": 2,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 12,
+        "audio_ms": 5120,
+        "segment_id": "aai-1",
+        "revision": 3,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 13,
+        "audio_ms": 5120,
+        "segment_id": "aai-1",
+        "revision": 4,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 14,
+        "audio_ms": 5920,
+        "segment_id": "aai-2",
+        "revision": 0,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 15,
+        "audio_ms": 6080,
+        "segment_id": "aai-2",
+        "revision": 1,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 16,
+        "audio_ms": 6320,
+        "segment_id": "aai-2",
+        "revision": 2,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 17,
+        "audio_ms": 6320,
+        "segment_id": "aai-2",
+        "revision": 3,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 18,
+        "audio_ms": 0,
+        "segment_id": "aai-3",
+        "revision": 0,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      }
+    ],
+    "score": 0,
+    "score_kind": "heuristic_not_probability",
+    "policy_version": "v2-phase1",
+    "guardian": {
+      "action": "LISTEN",
+      "message": "Keep listening. Identity has not been verified.",
+      "emit": false,
+      "mode": "advisory"
+    },
+    "uncertainty": [
+      "speaker_role_unknown"
+    ],
+    "protected_actions_allowed": false
+  },
+  "wall_seconds": 11.79,
+  "limitations": "Synthetic clean speech smoke test; not held-out accuracy or microphone/telephony verification."
+}

@@ -1,0 +1,27 @@
+# Runtime artifacts reserved for the event build
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+build/
+coverage/
+.venv/
+.venv-*/
+__pycache__/
+.pytest_cache/
+.test-tmp/
+*.egg-info/
+*.log
+
+# Never commit private voice or victim data
+*.wav
+*.mp3
+*.m4a
+private-evidence/
+scambench/heldout/private/
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+

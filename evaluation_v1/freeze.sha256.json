@@ -1,0 +1,11 @@
+{
+  "algorithm": "SHA-256",
+  "scope": "file_bytes",
+  "files": {
+    "prediction_mapping.v1.json": "b6955fb5ad5cabdae2736f2c926f0a56322dc3ca4d6810f25a5485fccdfc623f",
+    "REVIEW_DECISIONS.md": "cea09be6dc45569dc643abac48837839e466d3faba725ff1ece5105dd10c3576",
+    "LABELING_PROTOCOL.md": "0d5cdee5b900eab8d06f558b0d05682b2f25348827e0069784694d4ef10541a7",
+    "manifest.json": "9175e4c1f3706927098bce8f2c5b1fc41d35a6eaea1663bb1d0ba6ae390510a1"
+  },
+  "predictions_run": false
+}

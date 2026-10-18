@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReachGuard — Before you act</title><link rel="stylesheet" href="/review-ui.css">
+<body><a class="skip-link" href="#request">Skip to current request</a>
+<div class="shell"><aside class="sidebar" aria-label="Workspace navigation">
+<a class="brand" href="/fusion"><span class="brand-mark" aria-hidden="true">r</span>ReachGuard</a>
+<nav class="nav"><a href="#request" class="current">Overview</a><a href="#activity">Event timeline</a><a id="setup-nav" href="#setup">Session setup</a><a href="#details">Developer details</a></nav>
+<div class="sidebar-note"><strong>CallGate × Reach</strong><p>A device intent. A trusted contact. A deliberate next step.</p><span class="badge">Local demo</span></div></aside>
+<div class="workspace"><header class="topbar"><div class="breadcrumb">Workspace &nbsp; / &nbsp; <strong>Verification</strong></div>
+<div class="top-actions"><span id="connection" class="badge"><span class="dot"></span>Not connected</span><a id="participant-link" href="/" target="_blank" rel="noopener">Open request view ↗</a><a id="reviewer-link" href="http://127.0.0.1:8782/" target="_blank" rel="noopener">Open contact view ↗</a></div></header>
+<main class="content" data-role="fusion"><div class="hero"><div><p class="eyebrow">A PAUSE THAT PROTECTS</p><h1>Reach someone you trust.<br>Before you act.</h1><p>A familiar voice can still make an unfamiliar request.<br>Pause, review the evidence, and ask a trusted contact.</p></div><div class="hero-meta"><span class="badge teal">Scoped confirmation</span><p class="fineprint">Every action here is simulated.<br>No real payment is made.</p></div></div>
+<section id="access" class="card access" aria-label="Local operator access"><div class="access-copy"><h2>Your local workspace</h2><p>Use your local operator access, or open this workspace with the local role launcher.</p></div><div class="access-field"><label for="token">Operator access code</label><input id="token" type="password" autocomplete="off" placeholder="Kept on this computer"></div><button id="connect" class="primary">Connect workspace</button></section>
+<p id="status" class="status-message" role="status" aria-live="polite">Connect to load the current session. No events will be processed automatically.</p>
+<div class="layout" id="request"><div class="stack"><section class="card"><div class="card-head"><h2>The request</h2><span class="section-number">01 / UNDERSTAND</span></div>
+<div id="text-source" class="source">Local test text · not yet submitted in this tab</div>
+<label class="sr-only" for="text">Fictional request to analyze</label><textarea id="text" rows="3">Hey, it's me. Send 80 dollars right now. I really need your help.</textarea>
+<div class="settings-actions"><button id="ingest" disabled>Analyze test text</button></div><p id="text-hint" class="next">Use fictional content only. Analysis requires your consent.</p>
+<div id="evidence" class="evidence"><span class="chip">No evidence loaded</span></div><p id="evidence-source" class="evidence-source">Evidence is produced by CallGate's rule-based policy, not an identity check.</p></section>
+<section id="activity" class="card"><div class="card-head"><h2>A traceable path</h2><span id="event-count" class="badge">No events loaded</span></div>
+<label for="event-select">Choose an event</label><select id="event-select" class="event-picker"><option value="">Connect to view events</option></select>
+<div class="card-head"><span id="event-source" class="badge">No event selected</span><span id="event-kind" class="muted"></span></div>
+<p id="event-note" class="event-note">New events appear in the list without changing your selection.</p>
+<ol id="timeline" class="timeline"><li class="empty">Only steps that actually happened will appear here.</li></ol>
+<div id="help-notice" class="notice amber" hidden>A request for help was recorded. No contact has been notified by this demo.</div></section></div>
+<div class="stack"><section class="card"><div class="card-head"><h2>Before you act</h2><span class="badge">Simulation</span></div>
+<div id="operation-amount" class="operation-amount">—<small>USD</small></div><span class="muted">Proposed simulated action</span>
+<dl class="definition"><div><dt>Destination</dt><dd id="operation-destination">Not configured</dd></div><div><dt>Claimed contact</dt><dd id="operation-contact">Not selected</dd></div><div><dt>Verification</dt><dd id="verification-status">Not requested</dd></div></dl>
+<div id="decision-notice" class="notice">Set up your session, then choose an event to request verification.</div>
+<div id="challenge-panel" class="challenge" hidden><div class="challenge-title">One-time challenge</div><div id="challenge-code" class="challenge-code"></div><div id="challenge-time" class="countdown"></div><p>Share this code through a separate, agreed channel. The contact needs it to approve this simulated action.</p></div>
+<button id="request-verification" class="primary action-width" disabled>Request verification</button><p id="action-reason" class="next">Connect your workspace to continue.</p><a id="setup-action" href="#setup" class="fineprint">Review session setup</a>
+</section><section class="card"><p class="eyebrow">DESIGNED TO SLOW THE MOMENT</p><h2>A second channel.<br>A deliberate decision.</h2><p class="fineprint">A device event records an intent. CallGate checks the policy. A separately authorized contact reviews the exact simulated action.</p><div class="notice teal">A voice, a device event, or an access code alone does not grant permission to pay.</div></section></div></div>
+<details id="setup" class="card configuration"><summary>Session setup <span>Consent, contact, and simulated action</span></summary><div class="setup-content">
+<div class="grid-two"><div><h3>1. Choose what to share</h3><p class="fineprint">Use only fictional content or content you have permission to process. New content invalidates an outstanding verification.</p><button id="consent" class="primary" disabled>Allow this test session</button><p id="consent-note" class="next">Consent has not been checked.</p><button id="decline" disabled>Withdraw consent</button></div>
+<div><h3>2. Bind the action explicitly</h3><label for="session">Session</label><select id="session"><option value="">Current session not loaded</option></select><label for="device">Device ID</label><input id="device" value="nano-01"><label for="contact">Saved contact</label><select id="contact"><option value="">Connect to load contacts</option></select>
+<div class="grid-two"><div><label for="amount">Amount in USD cents</label><input id="amount" type="number" min="1" max="100000000" value="8000"></div><div><label for="destination">Simulated destination</label><input id="destination" value="fictional-wallet" maxlength="80"></div></div>
+<button id="bind" class="primary action-width" disabled>Confirm session and action</button><p id="binding-note" class="next">No binding loaded.</p></div></div>
+<hr class="divider"><div class="grid-two"><div><h3>Device event inbox</h3><p id="device-note" class="fineprint">Not checked. This page cannot observe a BLE connection or prove a hardware button press.</p></div><div><h3>Local role access</h3><p class="fineprint">Each role keeps its own access. Opening the contact page never gives the operator contact authority.</p><p class="fineprint">For a fresh authorized browser tab, run the local launcher described in Developer details.</p></div></div>
+<div class="settings-actions"><button id="connect-again">Refresh workspace</button><button id="disconnect">Disconnect this page</button><button id="reset" class="danger" disabled>End session and start over</button></div></div></details>
+<details id="details" class="developer"><summary>Developer details</summary><p class="fineprint">Local access codes and challenge codes are never included in this data view.</p><p class="fineprint">Open an authorized local role without copying its private link:</p><pre>python -m scripts.open_fusion_page operator
+python -m scripts.open_fusion_page participant
+python -m scripts.open_fusion_page reviewer</pre><p class="fineprint">Operator access: .test-tmp/fusion-live/operator.token. No role credential is exposed through the device API.</p><pre id="context">Connect to inspect the session.</pre><pre id="binding"></pre><pre id="event-details"></pre></details>
+<footer><span>ReachGuard &nbsp; / &nbsp; CallGate × Reach</span><span>Research prototype · Synthetic contact enrollment · No real payment</span></footer>
+</main></div></div><script src="/device-fusion.js" defer></script></body></html>

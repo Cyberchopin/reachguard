@@ -1,0 +1,31 @@
+{
+  "sensor_events": 106,
+  "speech_detected": true,
+  "states": [
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "UNVERIFIED",
+    "CHALLENGED",
+    "CHALLENGED",
+    "CHALLENGED",
+    "CHALLENGED",
+    "CHALLENGED",
+    "CHALLENGED",
+    "CHALLENGED",
+    "CHALLENGED",
+    "COOLING_OFF",
+    "COOLING_OFF"
+  ],
+  "completed": true
+}

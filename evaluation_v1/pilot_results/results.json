@@ -1,0 +1,332 @@
+{
+  "metrics": {
+    "full": {
+      "confusion": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 7,
+        "tn": 8
+      },
+      "precision": {
+        "value": 1.0,
+        "ci95": [
+          0.20654329147389294,
+          1
+        ],
+        "numerator": 1,
+        "denominator": 1
+      },
+      "recall": {
+        "value": 0.125,
+        "ci95": [
+          0.02241690886329617,
+          0.4708948057698615
+        ],
+        "numerator": 1,
+        "denominator": 8
+      },
+      "fpr": {
+        "value": 0.0,
+        "ci95": [
+          0,
+          0.3244156195108769
+        ],
+        "numerator": 0,
+        "denominator": 8
+      },
+      "fnr": {
+        "value": 0.875,
+        "ci95": [
+          0.5291051942301386,
+          0.9775830911367038
+        ],
+        "numerator": 7,
+        "denominator": 8
+      },
+      "f1": {
+        "value": 0.2222222222222222,
+        "ci95": [
+          0.04385081793731065,
+          0.6402834572842164
+        ],
+        "method": "monotone transform of Wilson TP/(TP+FP+FN)"
+      }
+    },
+    "baseline": {
+      "confusion": {
+        "tp": 2,
+        "fp": 3,
+        "fn": 6,
+        "tn": 5
+      },
+      "precision": {
+        "value": 0.4,
+        "ci95": [
+          0.1176182311592533,
+          0.769280067791163
+        ],
+        "numerator": 2,
+        "denominator": 5
+      },
+      "recall": {
+        "value": 0.25,
+        "ci95": [
+          0.07147768885802763,
+          0.5907301208974108
+        ],
+        "numerator": 2,
+        "denominator": 8
+      },
+      "fpr": {
+        "value": 0.375,
+        "ci95": [
+          0.13684175946152105,
+          0.6942621454161981
+        ],
+        "numerator": 3,
+        "denominator": 8
+      },
+      "fnr": {
+        "value": 0.75,
+        "ci95": [
+          0.40926987910258916,
+          0.9285223111419724
+        ],
+        "numerator": 6,
+        "denominator": 8
+      },
+      "f1": {
+        "value": 0.3076923076923077,
+        "ci95": [
+          0.09771396701819814,
+          0.6458911501503188
+        ],
+        "method": "monotone transform of Wilson TP/(TP+FP+FN)"
+      }
+    },
+    "no_credential_block": {
+      "confusion": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 7,
+        "tn": 8
+      },
+      "precision": {
+        "value": 1.0,
+        "ci95": [
+          0.20654329147389294,
+          1
+        ],
+        "numerator": 1,
+        "denominator": 1
+      },
+      "recall": {
+        "value": 0.125,
+        "ci95": [
+          0.02241690886329617,
+          0.4708948057698615
+        ],
+        "numerator": 1,
+        "denominator": 8
+      },
+      "fpr": {
+        "value": 0.0,
+        "ci95": [
+          0,
+          0.3244156195108769
+        ],
+        "numerator": 0,
+        "denominator": 8
+      },
+      "fnr": {
+        "value": 0.875,
+        "ci95": [
+          0.5291051942301386,
+          0.9775830911367038
+        ],
+        "numerator": 7,
+        "denominator": 8
+      },
+      "f1": {
+        "value": 0.2222222222222222,
+        "ci95": [
+          0.04385081793731065,
+          0.6402834572842164
+        ],
+        "method": "monotone transform of Wilson TP/(TP+FP+FN)"
+      }
+    },
+    "no_secrecy_cooling": {
+      "confusion": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 7,
+        "tn": 8
+      },
+      "precision": {
+        "value": 1.0,
+        "ci95": [
+          0.20654329147389294,
+          1
+        ],
+        "numerator": 1,
+        "denominator": 1
+      },
+      "recall": {
+        "value": 0.125,
+        "ci95": [
+          0.02241690886329617,
+          0.4708948057698615
+        ],
+        "numerator": 1,
+        "denominator": 8
+      },
+      "fpr": {
+        "value": 0.0,
+        "ci95": [
+          0,
+          0.3244156195108769
+        ],
+        "numerator": 0,
+        "denominator": 8
+      },
+      "fnr": {
+        "value": 0.875,
+        "ci95": [
+          0.5291051942301386,
+          0.9775830911367038
+        ],
+        "numerator": 7,
+        "denominator": 8
+      },
+      "f1": {
+        "value": 0.2222222222222222,
+        "ci95": [
+          0.04385081793731065,
+          0.6402834572842164
+        ],
+        "method": "monotone transform of Wilson TP/(TP+FP+FN)"
+      }
+    },
+    "no_sticky": {
+      "confusion": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 7,
+        "tn": 8
+      },
+      "precision": {
+        "value": 1.0,
+        "ci95": [
+          0.20654329147389294,
+          1
+        ],
+        "numerator": 1,
+        "denominator": 1
+      },
+      "recall": {
+        "value": 0.125,
+        "ci95": [
+          0.02241690886329617,
+          0.4708948057698615
+        ],
+        "numerator": 1,
+        "denominator": 8
+      },
+      "fpr": {
+        "value": 0.0,
+        "ci95": [
+          0,
+          0.3244156195108769
+        ],
+        "numerator": 0,
+        "denominator": 8
+      },
+      "fnr": {
+        "value": 0.875,
+        "ci95": [
+          0.5291051942301386,
+          0.9775830911367038
+        ],
+        "numerator": 7,
+        "denominator": 8
+      },
+      "f1": {
+        "value": 0.2222222222222222,
+        "ci95": [
+          0.04385081793731065,
+          0.6402834572842164
+        ],
+        "method": "monotone transform of Wilson TP/(TP+FP+FN)"
+      }
+    }
+  },
+  "state_table": {
+    "scam": {
+      "UNVERIFIED": 7,
+      "CHALLENGED": 1
+    },
+    "benign": {
+      "UNVERIFIED": 8
+    },
+    "ambiguous": {
+      "UNVERIFIED": 8
+    }
+  },
+  "benign_burden": {
+    "(0, 1, 2, 3)": 0.0,
+    "(0, 1, 1, 1)": 0.0,
+    "(0, 1, 3, 5)": 0.0
+  },
+  "pr_points": [
+    {
+      "threshold": 35,
+      "precision": 1.0,
+      "recall": 0.125
+    },
+    {
+      "threshold": 15,
+      "precision": 0.25,
+      "recall": 0.125
+    },
+    {
+      "threshold": 0,
+      "precision": 0.5,
+      "recall": 1.0
+    }
+  ],
+  "histogram": {
+    "counts": [
+      22,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "upper_ms": 9.65
+  },
+  "failure_ids": {
+    "FN: credential wording outside lexical coverage": [
+      "93fa1ff9a2826553",
+      "98d1a6cd9ec3b2a9"
+    ],
+    "FN: access/coercion request without supported remote-access terms": [
+      "a18961d128281751",
+      "99a12318f8b07129"
+    ],
+    "FN: payment morphology or fee wording outside lexical coverage": [
+      "029134f95c5f45bf",
+      "c9926ad55a2f1a60",
+      "ab1e388773ecedd7"
+    ],
+    "Baseline FP: context-free financial/access keywords": [
+      "7637a41296789129",
+      "f63253ce30984138",
+      "ce0d4ac9338cb62d"
+    ]
+  },
+  "disclosure": "This evaluation uses synthetic transcripts with provisional labels supplied by the same project assistant that authored the cases and had prior access to the CallGate implementation. Labels were not derived from CallGate predictions. No independent human annotation, adjudication, or inter-rater reliability study has been completed. A frozen holdout limits later tuning exposure but does not establish author independence or real-world validity."
+}

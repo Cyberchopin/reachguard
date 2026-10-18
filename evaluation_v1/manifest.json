@@ -1,0 +1,58 @@
+{
+  "version": "synthetic-pilot-v1",
+  "seed": 20260916,
+  "dev_fraction": 0.6,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "counts": {
+    "dev/bank/ambiguous": 3,
+    "dev/bank/benign": 3,
+    "dev/bank/scam": 3,
+    "dev/government/ambiguous": 3,
+    "dev/government/benign": 3,
+    "dev/government/scam": 3,
+    "dev/romance/ambiguous": 3,
+    "dev/romance/benign": 3,
+    "dev/romance/scam": 3,
+    "dev/tech_support/ambiguous": 3,
+    "dev/tech_support/benign": 3,
+    "dev/tech_support/scam": 3,
+    "test/bank/ambiguous": 2,
+    "test/bank/benign": 2,
+    "test/bank/scam": 2,
+    "test/government/ambiguous": 2,
+    "test/government/benign": 2,
+    "test/government/scam": 2,
+    "test/romance/ambiguous": 2,
+    "test/romance/benign": 2,
+    "test/romance/scam": 2,
+    "test/tech_support/ambiguous": 2,
+    "test/tech_support/benign": 2,
+    "test/tech_support/scam": 2
+  },
+  "files": {
+    "evaluation_v1/dev.inputs.jsonl": {
+      "sha256": "4eaaac34471e72f0fa25127800e4c51012a889a4aa0a40813ec9eec73c4455e0",
+      "rows": 36
+    },
+    "evaluation_v1/dev.labels.jsonl": {
+      "sha256": "d0113cd9bf5b602289c2f31b72e51c6bcf9c0f0874610b0d4bff68387591e93f",
+      "rows": 36
+    },
+    "scambench/heldout/private/evaluation_v1/test.inputs.jsonl": {
+      "sha256": "81bfaa4f2313b6b74fa94a7984d1321dfd020e2e0c4b466ee96ebd840944966e",
+      "rows": 24
+    },
+    "scambench/heldout/private/evaluation_v1/test.labels.jsonl": {
+      "sha256": "a7ddc596e5feebb730f008c71e4932ed387e1f3e9e3ee5a89d0a4d4a3a9a1e89",
+      "rows": 24
+    }
+  },
+  "author_source_sha256": "1805a33c3c5ae3b7968a108d64cf7f91085fb8d22e8ecc9beb6d3c79fe30d272",
+  "rubric_sha256": "e4fa00a36beabae99ab3aa7f02ff4e5e00c2346d9a3f4cf59e284002e1e78896",
+  "system_predictions_used": false,
+  "independent_authorship": false,
+  "checks": {
+    "normalized_duplicate_calls": 0,
+    "families_crossing_splits": 0
+  }
+}

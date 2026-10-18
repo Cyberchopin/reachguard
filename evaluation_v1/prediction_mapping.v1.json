@@ -1,0 +1,34 @@
+{
+  "version": "callgate-primary-mapping-v1",
+  "unit": "complete_call",
+  "endpoint": "intervention_signal_as_scam_screening_proxy",
+  "engine": "callgate.engine.Conversation",
+  "fresh_engine_per_call": true,
+  "input": {
+    "turn_order": "as_supplied",
+    "roles": "trusted_synthetic_roles_oracle_not_inferred",
+    "language": "en",
+    "each_turn_final": true,
+    "segment_ids": "unique_per_turn",
+    "revision": 0,
+    "timestamps": "synthetic_ordering_only_not_latency_evidence"
+  },
+  "observation": "state_after_last_turn",
+  "state_to_prediction": {
+    "UNVERIFIED": 0,
+    "CHALLENGED": 1,
+    "COOLING_OFF": 1,
+    "BLOCKED": 1
+  },
+  "score_threshold": null,
+  "guardian_emit_used": false,
+  "human_approval_used": false,
+  "ground_truth_to_binary": {"scam": 1, "benign": 0},
+  "ambiguous_ground_truth": "separate_positive_negative_error_counts_and_examples_excluded_from_binary_denominators",
+  "abstention": "none",
+  "invalid_input_or_missing_label": "fail_preflight",
+  "unknown_state_exception_or_incomplete_call": "execution_error_no_complete_cohort_headline_metrics",
+  "silent_error_exclusion": false,
+  "policy_gate_outcomes": "separate_from_classification",
+  "pr_curve": "secondary_score_analysis_does_not_replace_primary_operating_point"
+}

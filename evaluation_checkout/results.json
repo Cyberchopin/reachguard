@@ -1,0 +1,539 @@
+{
+  "disclosure": "Synthetic author-provided checkout rehearsal. No real payments, no independent labels, no population claim. Contact availability and latency are scripted parameters.",
+  "model_parameters": {
+    "callgate_p100_fast": "all contacts respond with scripted fast latency",
+    "callgate_p67_observed": "one legitimate contact is unavailable",
+    "callgate_p67_slow": "same availability as observed; response latency multiplied by 4",
+    "otp_step_up": "coerced victim relays OTP in unauthorized pressure scenarios"
+  },
+  "rows": [
+    {
+      "authorized": true,
+      "completed": false,
+      "refusal_reason": "always_denied",
+      "scenario_id": "co-001",
+      "state": null,
+      "system": "deny_all",
+      "verification_ms": null
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-001",
+      "state": null,
+      "system": "unguarded_checkout",
+      "verification_ms": 0
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-001",
+      "state": null,
+      "system": "otp_step_up",
+      "verification_ms": 12000
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "completion_status": "simulated_action_completed",
+      "contact_response_probability": 1.0,
+      "latency_multiplier": 1.0,
+      "refusal_reason": null,
+      "scenario_id": "co-001",
+      "state": "CHALLENGED",
+      "system": "callgate_p100_fast",
+      "verification_ms": 18000
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "completion_status": "simulated_action_completed",
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 1.0,
+      "refusal_reason": null,
+      "scenario_id": "co-001",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_observed",
+      "verification_ms": 18000
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "completion_status": "simulated_action_completed",
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 4.0,
+      "refusal_reason": null,
+      "scenario_id": "co-001",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_slow",
+      "verification_ms": 72000
+    },
+    {
+      "authorized": true,
+      "completed": false,
+      "refusal_reason": "always_denied",
+      "scenario_id": "co-002",
+      "state": null,
+      "system": "deny_all",
+      "verification_ms": null
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-002",
+      "state": null,
+      "system": "unguarded_checkout",
+      "verification_ms": 0
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-002",
+      "state": null,
+      "system": "otp_step_up",
+      "verification_ms": 12000
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "completion_status": "simulated_action_completed",
+      "contact_response_probability": 1.0,
+      "latency_multiplier": 1.0,
+      "refusal_reason": null,
+      "scenario_id": "co-002",
+      "state": "CHALLENGED",
+      "system": "callgate_p100_fast",
+      "verification_ms": 24000
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "completion_status": "simulated_action_completed",
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 1.0,
+      "refusal_reason": null,
+      "scenario_id": "co-002",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_observed",
+      "verification_ms": 24000
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "completion_status": "simulated_action_completed",
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 4.0,
+      "refusal_reason": null,
+      "scenario_id": "co-002",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_slow",
+      "verification_ms": 96000
+    },
+    {
+      "authorized": true,
+      "completed": false,
+      "refusal_reason": "always_denied",
+      "scenario_id": "co-003",
+      "state": null,
+      "system": "deny_all",
+      "verification_ms": null
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-003",
+      "state": null,
+      "system": "unguarded_checkout",
+      "verification_ms": 0
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-003",
+      "state": null,
+      "system": "otp_step_up",
+      "verification_ms": 12000
+    },
+    {
+      "authorized": true,
+      "completed": true,
+      "completion_status": "simulated_action_completed",
+      "contact_response_probability": 1.0,
+      "latency_multiplier": 1.0,
+      "refusal_reason": null,
+      "scenario_id": "co-003",
+      "state": "CHALLENGED",
+      "system": "callgate_p100_fast",
+      "verification_ms": 30000
+    },
+    {
+      "authorized": true,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 1.0,
+      "refusal_reason": "contact_unavailable",
+      "scenario_id": "co-003",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_observed",
+      "verification_ms": null
+    },
+    {
+      "authorized": true,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 4.0,
+      "refusal_reason": "contact_unavailable",
+      "scenario_id": "co-003",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_slow",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "refusal_reason": "always_denied",
+      "scenario_id": "co-004",
+      "state": null,
+      "system": "deny_all",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-004",
+      "state": null,
+      "system": "unguarded_checkout",
+      "verification_ms": 0
+    },
+    {
+      "authorized": false,
+      "completed": true,
+      "refusal_reason": "victim_relayed_otp",
+      "scenario_id": "co-004",
+      "state": null,
+      "system": "otp_step_up",
+      "verification_ms": 12000
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": "reviewer_denied",
+      "contact_response_probability": 1.0,
+      "latency_multiplier": 1.0,
+      "refusal_reason": null,
+      "scenario_id": "co-004",
+      "state": "CHALLENGED",
+      "system": "callgate_p100_fast",
+      "verification_ms": 22000
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": "reviewer_denied",
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 1.0,
+      "refusal_reason": null,
+      "scenario_id": "co-004",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_observed",
+      "verification_ms": 22000
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": "reviewer_denied",
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 4.0,
+      "refusal_reason": null,
+      "scenario_id": "co-004",
+      "state": "CHALLENGED",
+      "system": "callgate_p67_slow",
+      "verification_ms": 88000
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "refusal_reason": "always_denied",
+      "scenario_id": "co-005",
+      "state": null,
+      "system": "deny_all",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-005",
+      "state": null,
+      "system": "unguarded_checkout",
+      "verification_ms": 0
+    },
+    {
+      "authorized": false,
+      "completed": true,
+      "refusal_reason": "victim_relayed_otp",
+      "scenario_id": "co-005",
+      "state": null,
+      "system": "otp_step_up",
+      "verification_ms": 12000
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 1.0,
+      "latency_multiplier": 1.0,
+      "refusal_reason": "policy_prevents_confirmation",
+      "scenario_id": "co-005",
+      "state": "UNVERIFIED",
+      "system": "callgate_p100_fast",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 1.0,
+      "refusal_reason": "policy_prevents_confirmation",
+      "scenario_id": "co-005",
+      "state": "UNVERIFIED",
+      "system": "callgate_p67_observed",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 4.0,
+      "refusal_reason": "policy_prevents_confirmation",
+      "scenario_id": "co-005",
+      "state": "UNVERIFIED",
+      "system": "callgate_p67_slow",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "refusal_reason": "always_denied",
+      "scenario_id": "co-006",
+      "state": null,
+      "system": "deny_all",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": true,
+      "refusal_reason": null,
+      "scenario_id": "co-006",
+      "state": null,
+      "system": "unguarded_checkout",
+      "verification_ms": 0
+    },
+    {
+      "authorized": false,
+      "completed": true,
+      "refusal_reason": "victim_relayed_otp",
+      "scenario_id": "co-006",
+      "state": null,
+      "system": "otp_step_up",
+      "verification_ms": 12000
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 1.0,
+      "latency_multiplier": 1.0,
+      "refusal_reason": "policy_prevents_confirmation",
+      "scenario_id": "co-006",
+      "state": "BLOCKED",
+      "system": "callgate_p100_fast",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 1.0,
+      "refusal_reason": "policy_prevents_confirmation",
+      "scenario_id": "co-006",
+      "state": "BLOCKED",
+      "system": "callgate_p67_observed",
+      "verification_ms": null
+    },
+    {
+      "authorized": false,
+      "completed": false,
+      "completion_status": null,
+      "contact_response_probability": 0.6666666666666666,
+      "latency_multiplier": 4.0,
+      "refusal_reason": "policy_prevents_confirmation",
+      "scenario_id": "co-006",
+      "state": "BLOCKED",
+      "system": "callgate_p67_slow",
+      "verification_ms": null
+    }
+  ],
+  "scenario_count": 6,
+  "schema_version": "callgate-checkout-utility-v1",
+  "summary": {
+    "callgate_p100_fast": {
+      "false_execute": {
+        "denominator": 3,
+        "numerator": 0,
+        "value": 0.0,
+        "wilson95": [
+          0,
+          0.5615060804490177
+        ]
+      },
+      "latency_note": "synthetic reviewer response parameter, not human timing",
+      "legitimate_completion": {
+        "denominator": 3,
+        "numerator": 3,
+        "value": 1.0,
+        "wilson95": [
+          0.43849391955098227,
+          1
+        ]
+      },
+      "verification_ms_median": 24000,
+      "verification_ms_p95": 30000
+    },
+    "callgate_p67_observed": {
+      "false_execute": {
+        "denominator": 3,
+        "numerator": 0,
+        "value": 0.0,
+        "wilson95": [
+          0,
+          0.5615060804490177
+        ]
+      },
+      "latency_note": "synthetic reviewer response parameter, not human timing",
+      "legitimate_completion": {
+        "denominator": 3,
+        "numerator": 2,
+        "value": 0.6666666666666666,
+        "wilson95": [
+          0.2076549551264879,
+          0.9385096847238394
+        ]
+      },
+      "verification_ms_median": 21000.0,
+      "verification_ms_p95": 24000
+    },
+    "callgate_p67_slow": {
+      "false_execute": {
+        "denominator": 3,
+        "numerator": 0,
+        "value": 0.0,
+        "wilson95": [
+          0,
+          0.5615060804490177
+        ]
+      },
+      "latency_note": "synthetic reviewer response parameter, not human timing",
+      "legitimate_completion": {
+        "denominator": 3,
+        "numerator": 2,
+        "value": 0.6666666666666666,
+        "wilson95": [
+          0.2076549551264879,
+          0.9385096847238394
+        ]
+      },
+      "verification_ms_median": 84000.0,
+      "verification_ms_p95": 96000
+    },
+    "deny_all": {
+      "false_execute": {
+        "denominator": 3,
+        "numerator": 0,
+        "value": 0.0,
+        "wilson95": [
+          0,
+          0.5615060804490177
+        ]
+      },
+      "latency_note": "synthetic reviewer response parameter, not human timing",
+      "legitimate_completion": {
+        "denominator": 3,
+        "numerator": 0,
+        "value": 0.0,
+        "wilson95": [
+          0,
+          0.5615060804490177
+        ]
+      },
+      "verification_ms_median": null,
+      "verification_ms_p95": null
+    },
+    "otp_step_up": {
+      "false_execute": {
+        "denominator": 3,
+        "numerator": 3,
+        "value": 1.0,
+        "wilson95": [
+          0.43849391955098227,
+          1
+        ]
+      },
+      "latency_note": "synthetic reviewer response parameter, not human timing",
+      "legitimate_completion": {
+        "denominator": 3,
+        "numerator": 3,
+        "value": 1.0,
+        "wilson95": [
+          0.43849391955098227,
+          1
+        ]
+      },
+      "verification_ms_median": 12000,
+      "verification_ms_p95": 12000
+    },
+    "unguarded_checkout": {
+      "false_execute": {
+        "denominator": 3,
+        "numerator": 3,
+        "value": 1.0,
+        "wilson95": [
+          0.43849391955098227,
+          1
+        ]
+      },
+      "latency_note": "synthetic reviewer response parameter, not human timing",
+      "legitimate_completion": {
+        "denominator": 3,
+        "numerator": 3,
+        "value": 1.0,
+        "wilson95": [
+          0.43849391955098227,
+          1
+        ]
+      },
+      "verification_ms_median": 0,
+      "verification_ms_p95": 0
+    }
+  },
+  "systems": [
+    "deny_all",
+    "unguarded_checkout",
+    "otp_step_up",
+    "callgate_p100_fast",
+    "callgate_p67_observed",
+    "callgate_p67_slow"
+  ]
+}

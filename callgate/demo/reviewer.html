@@ -1,0 +1,17 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReachGuard — Contact confirmation</title><link rel="stylesheet" href="/review-ui.css">
+<body class="review-body"><header class="review-top"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">r</span>ReachGuard</a><span class="badge">Contact view</span></header>
+<main class="review-main" data-role="reviewer"><div class="review-hero"><p class="eyebrow">A SECOND CHANNEL. A CLEAR DECISION.</p><h1>Someone is requesting confirmation in your name.</h1><p>A local demo request, routed to a contact configured at startup. This is not proof of identity.</p></div>
+<section class="card review-card"><div class="card-head"><span id="review-state" class="badge">Not checked</span><span class="badge">Simulation</span></div>
+<div class="review-symbol" aria-hidden="true">↗</div><h2 id="review-heading">Check before you confirm.</h2>
+<div id="review-notice" class="notice"><p id="status" role="status" aria-live="polite">Open your local contact access, then check for a request. Nothing is approved automatically.</p></div>
+<button id="refresh" class="action-width">Check for a request</button>
+<div id="request-content" hidden><div id="review-amount" class="operation-amount">—</div><p class="fineprint">Simulated amount · No real payment</p>
+<dl class="definition"><div><dt>Destination</dt><dd id="review-destination">—</dd></div><div><dt>Claimed contact</dt><dd id="review-contact">—</dd></div><div><dt>Request source</dt><dd id="review-source">—</dd></div></dl></div>
+<p id="expiry" class="countdown" aria-live="off"></p><div id="decision-controls" hidden><label for="challenge-response">Code shared through your separate channel</label><input id="challenge-response" inputmode="numeric" maxlength="6" pattern="[0-9]{6}" autocomplete="off" placeholder="Six-digit code" disabled>
+<p class="next">Approval needs the code. Denial does not. You are confirming only the exact simulated action shown here.</p>
+<div class="review-actions"><button id="deny" class="danger" disabled>Deny this request</button><button id="approve" class="primary" disabled>Confirm simulation</button></div>
+</div><p id="review-connection" class="review-connection">Request status has not been checked.</p></section>
+<p class="review-note">A voice or wearable event is not proof of identity. No real payment is made. If something feels wrong, pause and contact the person through a channel you already trust.</p>
+<details class="developer"><summary>Local access &amp; Developer details</summary><p class="fineprint" id="endpoint"></p><p class="fineprint">Open this instance with its separate contact access:</p><pre>python -m scripts.open_fusion_page reviewer</pre><label for="reviewer-entry">Local contact access link (advanced)</label><input id="reviewer-entry" type="password" autocomplete="off"><button id="apply-reviewer-entry">Use this local access</button><pre id="operation">No request details loaded.</pre></details>
+<footer><span>ReachGuard / CallGate × Reach</span><span>Local signed confirmation</span></footer></main><script src="/review-ui.js" defer></script></body></html>

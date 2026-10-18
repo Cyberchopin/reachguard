@@ -1,0 +1,557 @@
+{
+  "status": "DEV_SANITY_NOT_HELDOUT_EVALUATION",
+  "disclosure": "This evaluation uses synthetic transcripts with provisional labels supplied by the same project assistant that authored the cases and had prior access to the CallGate implementation. Labels were not derived from CallGate predictions. No independent human annotation, adjudication, or inter-rater reliability study has been completed. A frozen holdout limits later tuning exposure but does not establish author independence or real-world validity.",
+  "baseline_version": "keyword-baseline-v1",
+  "pattern": "\\b(?:transfer|wire|zelle|gift cards?|crypto(?:currency)?|password|passcode|otp|verification code|remote access)\\b",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "data_sha256": "4eaaac34471e72f0fa25127800e4c51012a889a4aa0a40813ec9eec73c4455e0",
+  "source_sha256": "331ff6b6ed461e1375a5bf7b5bbda1894bc481fbd3b47a5ef572e8057f0616e2",
+  "runner_sha256": "0b47bfcc7e1f2526829081f8e6394871bf5e1891e63dd092b65c9d13680b3672",
+  "seed": null,
+  "deterministic_classifier": true,
+  "measurement_protocol": "one_unwarmed_pass_file_order_regex_precompiled_ns",
+  "calls": 36,
+  "samples": [
+    {
+      "id": "03af73ada0256bfb",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 9700,
+        "keyword_matching": 2300,
+        "binary_decision": 400,
+        "total": 12400,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "e21699b7aefab9e8",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 4800,
+        "keyword_matching": 3500,
+        "binary_decision": 300,
+        "total": 8600,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "3e6080b5c76b34f5",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 3000,
+        "keyword_matching": 2100,
+        "binary_decision": 100,
+        "total": 5200,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "e826f76dab43438b",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2900,
+        "keyword_matching": 3800,
+        "binary_decision": 200,
+        "total": 6900,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "b9b986d8f47798c4",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2600,
+        "keyword_matching": 3400,
+        "binary_decision": 100,
+        "total": 6100,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "bb950e0db1c1bac2",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 3300,
+        "keyword_matching": 2800,
+        "binary_decision": 100,
+        "total": 6200,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "e4e9ed2f9b83ddf9",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2500,
+        "keyword_matching": 3700,
+        "binary_decision": 0,
+        "total": 6200,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "8e96d3df2679cd53",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 2100,
+        "binary_decision": 0,
+        "total": 4300,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "769f04b607d532a9",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 3500,
+        "binary_decision": 100,
+        "total": 5800,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "0c892fc858751d96",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2400,
+        "keyword_matching": 3000,
+        "binary_decision": 100,
+        "total": 5500,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "9bfa70f8b892a24d",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 2800,
+        "binary_decision": 0,
+        "total": 5100,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "7c09b44615dbe877",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2100,
+        "keyword_matching": 2800,
+        "binary_decision": 0,
+        "total": 4900,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "40991438460aa86b",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 3300,
+        "binary_decision": 100,
+        "total": 5600,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "a71858a77e541db1",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 3800,
+        "binary_decision": 100,
+        "total": 6200,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "a7b66dec55a613df",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 3700,
+        "binary_decision": 100,
+        "total": 6000,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "66827fb298ed7aee",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 3200,
+        "keyword_matching": 3000,
+        "binary_decision": 0,
+        "total": 6200,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "ea3e6db279156f6c",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 3900,
+        "binary_decision": 100,
+        "total": 6200,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "f11ed0fe217c9a6e",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 2300,
+        "binary_decision": 100,
+        "total": 4700,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "9a47ef244705ac61",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 3600,
+        "binary_decision": 100,
+        "total": 6000,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "eacdfc71349dae66",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 2400,
+        "binary_decision": 100,
+        "total": 4800,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "5f9de0d07fd9f8d9",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 2300,
+        "binary_decision": 100,
+        "total": 4600,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "810961c145251f63",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 5800,
+        "binary_decision": 100,
+        "total": 8200,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "6698c294047d9e8e",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 3800,
+        "keyword_matching": 3100,
+        "binary_decision": 100,
+        "total": 7000,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "8aff2fd47f169a3f",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 3700,
+        "keyword_matching": 4200,
+        "binary_decision": 100,
+        "total": 8000,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "8b697af675273af8",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 4100,
+        "keyword_matching": 3000,
+        "binary_decision": 0,
+        "total": 7100,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "6d9f5085499d9232",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 3200,
+        "keyword_matching": 2300,
+        "binary_decision": 0,
+        "total": 5500,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "3cd5a5af9c4f7263",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 2100,
+        "keyword_matching": 1800,
+        "binary_decision": 100,
+        "total": 4000,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "066e4f42878bddc0",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2500,
+        "keyword_matching": 2100,
+        "binary_decision": 100,
+        "total": 4700,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "d4918a75a45793e8",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2400,
+        "keyword_matching": 3200,
+        "binary_decision": 0,
+        "total": 5600,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "f8a96600cccef14f",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 2200,
+        "binary_decision": 100,
+        "total": 4500,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "4d6ae8a4971be279",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 3000,
+        "binary_decision": 100,
+        "total": 5400,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "832fe774879c8c93",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2300,
+        "keyword_matching": 3100,
+        "binary_decision": 200,
+        "total": 5600,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "71a31ba587c29cfd",
+      "prediction": 0,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 2700,
+        "binary_decision": 100,
+        "total": 5000,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "842427d4a9fe175d",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 700,
+        "binary_decision": 100,
+        "total": 3000,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "08d4c699b5a6c297",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 1900,
+        "binary_decision": 0,
+        "total": 4100,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    },
+    {
+      "id": "81e2d875c2aa978d",
+      "prediction": 1,
+      "timing_ns": {
+        "ingestion": 2200,
+        "keyword_matching": 1700,
+        "binary_decision": 0,
+        "total": 3900,
+        "gate_transition": null
+      },
+      "timing_scope": "local_text_only_no_asr_or_gate",
+      "provider_cost_usd": null,
+      "provider_cost_status": "no_provider_invoked",
+      "total_cost_usd": null
+    }
+  ]
+}

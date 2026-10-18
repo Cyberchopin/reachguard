@@ -1,0 +1,12 @@
+{
+  "case_id": "REPLACE_WITH_OPAQUE_ID",
+  "reviewer_id": "REPLACE_WITH_ANONYMOUS_REVIEWER_ID",
+  "rubric_version": "labeling-protocol-v1",
+  "label": null,
+  "evidence": [
+    {"turn_index_zero_based": null, "exact_quote": ""}
+  ],
+  "reasoning": "",
+  "alternative_interpretation": "",
+  "uncertainty_note": ""
+}

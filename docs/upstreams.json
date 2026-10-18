@@ -1,0 +1,175 @@
+{
+  "github_account": "Cyberchopin",
+  "fork_blocker": "CLI authentication invalid; browser GitHub login required",
+  "repositories": [
+    {
+      "name": "aasist",
+      "repository": "clovaai/aasist",
+      "url": "https://github.com/clovaai/aasist.git",
+      "commit": "a04c9863f63d44471dde8a6abcb3b082b07cd1d1",
+      "license_files": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "agentdojo",
+      "repository": "ethz-spylab/agentdojo",
+      "url": "https://github.com/ethz-spylab/agentdojo.git",
+      "commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "asvspoof2021",
+      "repository": "asvspoof-challenge/2021",
+      "url": "https://github.com/asvspoof-challenge/2021.git",
+      "commit": "9b33f5eca887bd3bf629e3fb79428cd9bb7ac972",
+      "license_files": [],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "callshield",
+      "repository": "melbinkm/CallShield",
+      "url": "https://github.com/melbinkm/CallShield.git",
+      "commit": "3135372ac718ab720db61947ea6efb1e3f446a55",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "garak",
+      "repository": "NVIDIA/garak",
+      "url": "https://github.com/NVIDIA/garak.git",
+      "commit": "2233d51bedf6bfb634872ef9efbcd94eae38cc1a",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "livekit-agents",
+      "repository": "livekit/agents",
+      "url": "https://github.com/livekit/agents.git",
+      "commit": "624ab3109d3cf6a584578e67501d84dc57a1e752",
+      "license_files": [
+        "LICENSE",
+        "NOTICE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "nemo-guardrails",
+      "repository": "NVIDIA-NeMo/Guardrails",
+      "url": "https://github.com/NVIDIA-NeMo/Guardrails.git",
+      "commit": "39b9c5b09e41a4ee71156effdd7ca6f02e98ead4",
+      "license_files": [
+        "LICENSE-Apache-2.0.txt",
+        "LICENSE.md"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "phishintention",
+      "repository": "lindsey98/PhishIntention",
+      "url": "https://github.com/lindsey98/PhishIntention.git",
+      "commit": "69613c26677526a7b5f0dceeb81a07fa4cf41b9f",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "pipecat",
+      "repository": "pipecat-ai/pipecat",
+      "url": "https://github.com/pipecat-ai/pipecat.git",
+      "commit": "8a7a7d7ff302dc153a88660f73be3fa44055ab7c",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "integrated_optional"
+    },
+    {
+      "name": "promptfoo",
+      "repository": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo.git",
+      "commit": "e5767f290f8b57d132fe4dbe4629679552d447e7",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "pyannote-audio",
+      "repository": "pyannote/pyannote-audio",
+      "url": "https://github.com/pyannote/pyannote-audio.git",
+      "commit": "b749285c5cdd4636b2edc7f766f1352c8dde9369",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "pyod",
+      "repository": "yzhao062/pyod",
+      "url": "https://github.com/yzhao062/pyod.git",
+      "commit": "8261bd3e766a34c8f0bf222d5e614ad51a763c4c",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    },
+    {
+      "name": "silero-vad",
+      "repository": "snakers4/silero-vad",
+      "url": "https://github.com/snakers4/silero-vad.git",
+      "commit": "867c2aa692646a1f1de3e94a15c9dd9f614c0acb",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "integrated_optional"
+    },
+    {
+      "name": "voice-ui-kit",
+      "repository": "pipecat-ai/voice-ui-kit",
+      "url": "https://github.com/pipecat-ai/voice-ui-kit.git",
+      "commit": "25a157651d0fc0261c69d509f15564fad4922452",
+      "license_files": [
+        "LICENSE"
+      ],
+      "local_clone": true,
+      "github_fork_created": false,
+      "status": "research_checkout"
+    }
+  ]
+}

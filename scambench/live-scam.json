@@ -1,0 +1,4297 @@
+{
+  "timestamp_utc": "2026-09-09T04:17:43.159430+00:00",
+  "audio": "synthetic-call.wav",
+  "test_type": "live_provider_synthetic_audio",
+  "updates": [
+    {
+      "received_ms": 1127,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 0,
+        "text": "",
+        "start_ms": 640,
+        "end_ms": 720,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 1696,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 1,
+        "text": "Hello,",
+        "start_ms": 640,
+        "end_ms": 1280,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 1799,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 2,
+        "text": "Hello, I",
+        "start_ms": 640,
+        "end_ms": 1360,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 2130,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 3,
+        "text": "Hello, I am",
+        "start_ms": 640,
+        "end_ms": 1600,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 2315,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 4,
+        "text": "Hello, I am calling",
+        "start_ms": 640,
+        "end_ms": 1840,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 2592,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 5,
+        "text": "Hello, I am calling from",
+        "start_ms": 640,
+        "end_ms": 2080,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:5:authority:12",
+            "segment_id": "aai-0",
+            "revision": 5,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 3015,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 6,
+        "text": "Hello, I am calling from your",
+        "start_ms": 640,
+        "end_ms": 2480,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:6:authority:12",
+            "segment_id": "aai-0",
+            "revision": 6,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 0,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 3416,
+      "transcript": {
+        "segment_id": "aai-0",
+        "revision": 7,
+        "text": "Hello, I am calling from your bank.",
+        "start_ms": 640,
+        "end_ms": 2480,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 10,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 3871,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 0,
+        "text": "You",
+        "start_ms": 3200,
+        "end_ms": 3280,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 10,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 4009,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 1,
+        "text": "You need",
+        "start_ms": 3200,
+        "end_ms": 3440,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 10,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 4368,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 2,
+        "text": "You need to",
+        "start_ms": 3200,
+        "end_ms": 3760,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 10,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 4684,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 3,
+        "text": "You need to send",
+        "start_ms": 3200,
+        "end_ms": 4000,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 10,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 5112,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 4,
+        "text": "You need to send money",
+        "start_ms": 3200,
+        "end_ms": 4400,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:4:money:12",
+            "segment_id": "aai-1",
+            "revision": 4,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 10,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 5165,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 5,
+        "text": "You need to send money right",
+        "start_ms": 3200,
+        "end_ms": 4480,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "UNVERIFIED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:5:money:12",
+            "segment_id": "aai-1",
+            "revision": 5,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          }
+        ],
+        "score": 10,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "LISTEN",
+          "message": "Keep listening. Identity has not been verified.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 5878,
+      "transcript": {
+        "segment_id": "aai-1",
+        "revision": 6,
+        "text": "You need to send money right now.",
+        "start_ms": 3200,
+        "end_ms": 4480,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": true,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 6202,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 0,
+        "text": "",
+        "start_ms": 5360,
+        "end_ms": 5440,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 6433,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 1,
+        "text": "Do",
+        "start_ms": 5360,
+        "end_ms": 5600,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 6520,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 2,
+        "text": "Do not",
+        "start_ms": 5360,
+        "end_ms": 5760,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 5760,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 6896,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 3,
+        "text": "Do not tell",
+        "start_ms": 5360,
+        "end_ms": 6080,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:3:secrecy:0",
+            "segment_id": "aai-2",
+            "revision": 3,
+            "kind": "secrecy",
+            "start": 0,
+            "end": 11,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 5760,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 18,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 7925,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 4,
+        "text": "Do not tell anyone.",
+        "start_ms": 5360,
+        "end_ms": 7040,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:4:secrecy:0",
+            "segment_id": "aai-2",
+            "revision": 4,
+            "kind": "secrecy",
+            "start": 0,
+            "end": 11,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 5760,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 18,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 19,
+            "audio_ms": 7040,
+            "segment_id": "aai-2",
+            "revision": 4,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 8183,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 5,
+        "text": "Do not tell anyone. Keep",
+        "start_ms": 5360,
+        "end_ms": 7280,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:5:secrecy:0",
+            "segment_id": "aai-2",
+            "revision": 5,
+            "kind": "secrecy",
+            "start": 0,
+            "end": 11,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 5760,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 18,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 19,
+            "audio_ms": 7040,
+            "segment_id": "aai-2",
+            "revision": 4,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 20,
+            "audio_ms": 7280,
+            "segment_id": "aai-2",
+            "revision": 5,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 8614,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 6,
+        "text": "Do not tell anyone. Keep this",
+        "start_ms": 5360,
+        "end_ms": 7600,
+        "final": false,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "CHALLENGED",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:6:secrecy:0",
+            "segment_id": "aai-2",
+            "revision": 6,
+            "kind": "secrecy",
+            "start": 0,
+            "end": 11,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 5760,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 18,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 19,
+            "audio_ms": 7040,
+            "segment_id": "aai-2",
+            "revision": 4,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 20,
+            "audio_ms": 7280,
+            "segment_id": "aai-2",
+            "revision": 5,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 21,
+            "audio_ms": 7600,
+            "segment_id": "aai-2",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          }
+        ],
+        "score": 60,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "VERIFY",
+          "message": "Pause this action. Call back using a number you already trust.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 9126,
+      "transcript": {
+        "segment_id": "aai-2",
+        "revision": 7,
+        "text": "Do not tell anyone. Keep this secret.",
+        "start_ms": 5360,
+        "end_ms": 7600,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "COOLING_OFF",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:7:secrecy:0",
+            "segment_id": "aai-2",
+            "revision": 7,
+            "kind": "secrecy",
+            "start": 0,
+            "end": 11,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:7:secrecy:20",
+            "segment_id": "aai-2",
+            "revision": 7,
+            "kind": "secrecy",
+            "start": 20,
+            "end": 36,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 5760,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 18,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 19,
+            "audio_ms": 7040,
+            "segment_id": "aai-2",
+            "revision": 4,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 20,
+            "audio_ms": 7280,
+            "segment_id": "aai-2",
+            "revision": 5,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 21,
+            "audio_ms": 7600,
+            "segment_id": "aai-2",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 22,
+            "audio_ms": 7600,
+            "segment_id": "aai-2",
+            "revision": 7,
+            "score": 80,
+            "provisional_score": 80,
+            "state": "COOLING_OFF"
+          }
+        ],
+        "score": 80,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "PAUSE",
+          "message": "Take time away from this call. Verify independently before taking action.",
+          "emit": true,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    },
+    {
+      "received_ms": 12521,
+      "transcript": {
+        "segment_id": "aai-3",
+        "revision": 0,
+        "text": "",
+        "start_ms": 0,
+        "end_ms": 0,
+        "final": true,
+        "role": "unknown",
+        "language": "en"
+      },
+      "risk": {
+        "status": "accepted",
+        "state": "COOLING_OFF",
+        "events": [
+          {
+            "event_id": "aai-0:7:authority:12",
+            "segment_id": "aai-0",
+            "revision": 7,
+            "kind": "authority",
+            "start": 12,
+            "end": 24,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:urgency:23",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "urgency",
+            "start": 23,
+            "end": 32,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-1:6:money:12",
+            "segment_id": "aai-1",
+            "revision": 6,
+            "kind": "money",
+            "start": 12,
+            "end": 22,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:7:secrecy:0",
+            "segment_id": "aai-2",
+            "revision": 7,
+            "kind": "secrecy",
+            "start": 0,
+            "end": 11,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          },
+          {
+            "event_id": "aai-2:7:secrecy:20",
+            "segment_id": "aai-2",
+            "revision": 7,
+            "kind": "secrecy",
+            "start": 20,
+            "end": 36,
+            "confidence": 0.7,
+            "extractor": "rules-en-v1"
+          }
+        ],
+        "timeline": [
+          {
+            "sequence": 0,
+            "audio_ms": 720,
+            "segment_id": "aai-0",
+            "revision": 0,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 1,
+            "audio_ms": 1280,
+            "segment_id": "aai-0",
+            "revision": 1,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 2,
+            "audio_ms": 1360,
+            "segment_id": "aai-0",
+            "revision": 2,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 3,
+            "audio_ms": 1600,
+            "segment_id": "aai-0",
+            "revision": 3,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 4,
+            "audio_ms": 1840,
+            "segment_id": "aai-0",
+            "revision": 4,
+            "score": 0,
+            "provisional_score": 0,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 5,
+            "audio_ms": 2080,
+            "segment_id": "aai-0",
+            "revision": 5,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 6,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 6,
+            "score": 0,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 7,
+            "audio_ms": 2480,
+            "segment_id": "aai-0",
+            "revision": 7,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 8,
+            "audio_ms": 3280,
+            "segment_id": "aai-1",
+            "revision": 0,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 9,
+            "audio_ms": 3440,
+            "segment_id": "aai-1",
+            "revision": 1,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 10,
+            "audio_ms": 3760,
+            "segment_id": "aai-1",
+            "revision": 2,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 11,
+            "audio_ms": 4000,
+            "segment_id": "aai-1",
+            "revision": 3,
+            "score": 10,
+            "provisional_score": 10,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 12,
+            "audio_ms": 4400,
+            "segment_id": "aai-1",
+            "revision": 4,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 13,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 5,
+            "score": 10,
+            "provisional_score": 45,
+            "state": "UNVERIFIED"
+          },
+          {
+            "sequence": 14,
+            "audio_ms": 4480,
+            "segment_id": "aai-1",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 15,
+            "audio_ms": 5440,
+            "segment_id": "aai-2",
+            "revision": 0,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 16,
+            "audio_ms": 5600,
+            "segment_id": "aai-2",
+            "revision": 1,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 17,
+            "audio_ms": 5760,
+            "segment_id": "aai-2",
+            "revision": 2,
+            "score": 60,
+            "provisional_score": 60,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 18,
+            "audio_ms": 6080,
+            "segment_id": "aai-2",
+            "revision": 3,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 19,
+            "audio_ms": 7040,
+            "segment_id": "aai-2",
+            "revision": 4,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 20,
+            "audio_ms": 7280,
+            "segment_id": "aai-2",
+            "revision": 5,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 21,
+            "audio_ms": 7600,
+            "segment_id": "aai-2",
+            "revision": 6,
+            "score": 60,
+            "provisional_score": 80,
+            "state": "CHALLENGED"
+          },
+          {
+            "sequence": 22,
+            "audio_ms": 7600,
+            "segment_id": "aai-2",
+            "revision": 7,
+            "score": 80,
+            "provisional_score": 80,
+            "state": "COOLING_OFF"
+          },
+          {
+            "sequence": 23,
+            "audio_ms": 0,
+            "segment_id": "aai-3",
+            "revision": 0,
+            "score": 80,
+            "provisional_score": 80,
+            "state": "COOLING_OFF"
+          }
+        ],
+        "score": 80,
+        "score_kind": "heuristic_not_probability",
+        "policy_version": "v2-phase1",
+        "guardian": {
+          "action": "PAUSE",
+          "message": "Take time away from this call. Verify independently before taking action.",
+          "emit": false,
+          "mode": "advisory"
+        },
+        "uncertainty": [
+          "speaker_role_unknown"
+        ],
+        "protected_actions_allowed": false
+      }
+    }
+  ],
+  "final": {
+    "status": "snapshot",
+    "state": "COOLING_OFF",
+    "events": [
+      {
+        "event_id": "aai-0:7:authority:12",
+        "segment_id": "aai-0",
+        "revision": 7,
+        "kind": "authority",
+        "start": 12,
+        "end": 24,
+        "confidence": 0.7,
+        "extractor": "rules-en-v1"
+      },
+      {
+        "event_id": "aai-1:6:urgency:23",
+        "segment_id": "aai-1",
+        "revision": 6,
+        "kind": "urgency",
+        "start": 23,
+        "end": 32,
+        "confidence": 0.7,
+        "extractor": "rules-en-v1"
+      },
+      {
+        "event_id": "aai-1:6:money:12",
+        "segment_id": "aai-1",
+        "revision": 6,
+        "kind": "money",
+        "start": 12,
+        "end": 22,
+        "confidence": 0.7,
+        "extractor": "rules-en-v1"
+      },
+      {
+        "event_id": "aai-2:7:secrecy:0",
+        "segment_id": "aai-2",
+        "revision": 7,
+        "kind": "secrecy",
+        "start": 0,
+        "end": 11,
+        "confidence": 0.7,
+        "extractor": "rules-en-v1"
+      },
+      {
+        "event_id": "aai-2:7:secrecy:20",
+        "segment_id": "aai-2",
+        "revision": 7,
+        "kind": "secrecy",
+        "start": 20,
+        "end": 36,
+        "confidence": 0.7,
+        "extractor": "rules-en-v1"
+      }
+    ],
+    "timeline": [
+      {
+        "sequence": 0,
+        "audio_ms": 720,
+        "segment_id": "aai-0",
+        "revision": 0,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 1,
+        "audio_ms": 1280,
+        "segment_id": "aai-0",
+        "revision": 1,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 2,
+        "audio_ms": 1360,
+        "segment_id": "aai-0",
+        "revision": 2,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 3,
+        "audio_ms": 1600,
+        "segment_id": "aai-0",
+        "revision": 3,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 4,
+        "audio_ms": 1840,
+        "segment_id": "aai-0",
+        "revision": 4,
+        "score": 0,
+        "provisional_score": 0,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 5,
+        "audio_ms": 2080,
+        "segment_id": "aai-0",
+        "revision": 5,
+        "score": 0,
+        "provisional_score": 10,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 6,
+        "audio_ms": 2480,
+        "segment_id": "aai-0",
+        "revision": 6,
+        "score": 0,
+        "provisional_score": 10,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 7,
+        "audio_ms": 2480,
+        "segment_id": "aai-0",
+        "revision": 7,
+        "score": 10,
+        "provisional_score": 10,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 8,
+        "audio_ms": 3280,
+        "segment_id": "aai-1",
+        "revision": 0,
+        "score": 10,
+        "provisional_score": 10,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 9,
+        "audio_ms": 3440,
+        "segment_id": "aai-1",
+        "revision": 1,
+        "score": 10,
+        "provisional_score": 10,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 10,
+        "audio_ms": 3760,
+        "segment_id": "aai-1",
+        "revision": 2,
+        "score": 10,
+        "provisional_score": 10,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 11,
+        "audio_ms": 4000,
+        "segment_id": "aai-1",
+        "revision": 3,
+        "score": 10,
+        "provisional_score": 10,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 12,
+        "audio_ms": 4400,
+        "segment_id": "aai-1",
+        "revision": 4,
+        "score": 10,
+        "provisional_score": 45,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 13,
+        "audio_ms": 4480,
+        "segment_id": "aai-1",
+        "revision": 5,
+        "score": 10,
+        "provisional_score": 45,
+        "state": "UNVERIFIED"
+      },
+      {
+        "sequence": 14,
+        "audio_ms": 4480,
+        "segment_id": "aai-1",
+        "revision": 6,
+        "score": 60,
+        "provisional_score": 60,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 15,
+        "audio_ms": 5440,
+        "segment_id": "aai-2",
+        "revision": 0,
+        "score": 60,
+        "provisional_score": 60,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 16,
+        "audio_ms": 5600,
+        "segment_id": "aai-2",
+        "revision": 1,
+        "score": 60,
+        "provisional_score": 60,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 17,
+        "audio_ms": 5760,
+        "segment_id": "aai-2",
+        "revision": 2,
+        "score": 60,
+        "provisional_score": 60,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 18,
+        "audio_ms": 6080,
+        "segment_id": "aai-2",
+        "revision": 3,
+        "score": 60,
+        "provisional_score": 80,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 19,
+        "audio_ms": 7040,
+        "segment_id": "aai-2",
+        "revision": 4,
+        "score": 60,
+        "provisional_score": 80,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 20,
+        "audio_ms": 7280,
+        "segment_id": "aai-2",
+        "revision": 5,
+        "score": 60,
+        "provisional_score": 80,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 21,
+        "audio_ms": 7600,
+        "segment_id": "aai-2",
+        "revision": 6,
+        "score": 60,
+        "provisional_score": 80,
+        "state": "CHALLENGED"
+      },
+      {
+        "sequence": 22,
+        "audio_ms": 7600,
+        "segment_id": "aai-2",
+        "revision": 7,
+        "score": 80,
+        "provisional_score": 80,
+        "state": "COOLING_OFF"
+      },
+      {
+        "sequence": 23,
+        "audio_ms": 0,
+        "segment_id": "aai-3",
+        "revision": 0,
+        "score": 80,
+        "provisional_score": 80,
+        "state": "COOLING_OFF"
+      }
+    ],
+    "score": 80,
+    "score_kind": "heuristic_not_probability",
+    "policy_version": "v2-phase1",
+    "guardian": {
+      "action": "PAUSE",
+      "message": "Take time away from this call. Verify independently before taking action.",
+      "emit": false,
+      "mode": "advisory"
+    },
+    "uncertainty": [
+      "speaker_role_unknown"
+    ],
+    "protected_actions_allowed": false
+  },
+  "wall_seconds": 12.92,
+  "limitations": "Synthetic clean speech smoke test; not held-out accuracy or microphone/telephony verification."
+}

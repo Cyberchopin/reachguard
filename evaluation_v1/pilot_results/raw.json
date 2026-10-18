@@ -1,0 +1,3600 @@
+{
+  "status": "UNVALIDATED_SYNTHETIC_PILOT_TEST_NOW_REVEALED",
+  "disclosure": "This evaluation uses synthetic transcripts with provisional labels supplied by the same project assistant that authored the cases and had prior access to the CallGate implementation. Labels were not derived from CallGate predictions. No independent human annotation, adjudication, or inter-rater reliability study has been completed. A frozen holdout limits later tuning exposure but does not establish author independence or real-world validity.",
+  "cases": [
+    {
+      "id": "b34fa62035a0c119",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Your payment may be delayed unless we update some details."
+        },
+        {
+          "role": "recipient",
+          "text": "Which details?"
+        },
+        {
+          "role": "caller",
+          "text": "Let me pull up the form."
+        }
+      ]
+    },
+    {
+      "id": "ca5a04bc26a50dd0",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "This is the fraud desk. Did you make a large purchase this morning?"
+        },
+        {
+          "role": "recipient",
+          "text": "I do not recognize your number."
+        },
+        {
+          "role": "caller",
+          "text": "Please confirm whether the purchase was yours."
+        }
+      ]
+    },
+    {
+      "id": "7637a41296789129",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Please stop the scheduled transfer immediately."
+        },
+        {
+          "role": "recipient",
+          "text": "You called the number printed on your bank card; which scheduled payment?"
+        },
+        {
+          "role": "caller",
+          "text": "The rent payment I created yesterday. Cancel it, do not send money elsewhere."
+        }
+      ]
+    },
+    {
+      "id": "32bd356b1055dd7d",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Your card is ready at the branch."
+        },
+        {
+          "role": "recipient",
+          "text": "I requested that replacement yesterday."
+        },
+        {
+          "role": "caller",
+          "text": "Bring identification to the branch; do not share any code on this call."
+        }
+      ]
+    },
+    {
+      "id": "93fa1ff9a2826553",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Please read the login code; I will reverse the fraud."
+        },
+        {
+          "role": "recipient",
+          "text": "The message says bank staff never ask for it."
+        },
+        {
+          "role": "caller",
+          "text": "Ignore that message, it is only for ordinary customers."
+        }
+      ]
+    },
+    {
+      "id": "a18961d128281751",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "I am your bank's dispute officer. Install this app so I can watch your banking screen."
+        },
+        {
+          "role": "recipient",
+          "text": "My bank's dispute team just confirmed they did not call."
+        },
+        {
+          "role": "caller",
+          "text": "They are not allowed to know about my investigation."
+        }
+      ]
+    },
+    {
+      "id": "2ea7e0944d72af0c",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "I work for an agency contractor arranging inspections."
+        },
+        {
+          "role": "recipient",
+          "text": "Was this visit requested by my landlord?"
+        },
+        {
+          "role": "caller",
+          "text": "I cannot see who booked it."
+        }
+      ]
+    },
+    {
+      "id": "c84b9517b88a7153",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "There is an outstanding administrative fee."
+        },
+        {
+          "role": "recipient",
+          "text": "How much and where can I verify it?"
+        },
+        {
+          "role": "caller",
+          "text": "I will have another officer call you."
+        }
+      ]
+    },
+    {
+      "id": "2a2db296d17aee6a",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "We must reschedule your jury service appointment urgently."
+        },
+        {
+          "role": "recipient",
+          "text": "I called the courthouse switchboard and was transferred here."
+        },
+        {
+          "role": "caller",
+          "text": "Please choose another date; no payment is involved."
+        }
+      ]
+    },
+    {
+      "id": "e00aa796601d1163",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "I need to pay my permit fee before construction starts."
+        },
+        {
+          "role": "recipient",
+          "text": "Use the official portal listed on the permit application you already have."
+        },
+        {
+          "role": "caller",
+          "text": "I see the matching invoice and will pay there."
+        }
+      ]
+    },
+    {
+      "id": "98d1a6cd9ec3b2a9",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Please take your time providing your benefits login code."
+        },
+        {
+          "role": "recipient",
+          "text": "The code says never share it, even with agency employees."
+        },
+        {
+          "role": "caller",
+          "text": "Our hidden verification procedure requires you to read it out."
+        }
+      ]
+    },
+    {
+      "id": "029134f95c5f45bf",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "A warrant disappears if you send cryptocurrency to my personal wallet."
+        },
+        {
+          "role": "recipient",
+          "text": "Can my lawyer contact the court?"
+        },
+        {
+          "role": "caller",
+          "text": "No lawyers or court staff may hear about this payment."
+        }
+      ]
+    },
+    {
+      "id": "1590e0c263e7a9b2",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "My account is frozen; could you cover dinner and I will repay you?"
+        },
+        {
+          "role": "recipient",
+          "text": "When will it be unfrozen?"
+        },
+        {
+          "role": "caller",
+          "text": "I am waiting to hear."
+        }
+      ]
+    },
+    {
+      "id": "49ad628a4f9cd218",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Please keep my medical problem private and help with the bill."
+        },
+        {
+          "role": "recipient",
+          "text": "Can I pay the clinic directly?"
+        },
+        {
+          "role": "caller",
+          "text": "Let me check with them."
+        }
+      ]
+    },
+    {
+      "id": "7c40c41487a1be6e",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "I am upset that you forgot our rent. Please pay your share tonight."
+        },
+        {
+          "role": "recipient",
+          "text": "The lease and shared bill show the same landlord account as last month."
+        },
+        {
+          "role": "caller",
+          "text": "Yes, use that saved payee and send me the receipt."
+        }
+      ]
+    },
+    {
+      "id": "f63253ce30984138",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "My train was cancelled; can you buy me another ticket urgently?"
+        },
+        {
+          "role": "recipient",
+          "text": "I can book directly with the rail company using the itinerary we already share."
+        },
+        {
+          "role": "caller",
+          "text": "That works; no cash transfer needed."
+        }
+      ]
+    },
+    {
+      "id": "c9926ad55a2f1a60",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "I love you, but my travel visa needs a gift-card payment."
+        },
+        {
+          "role": "recipient",
+          "text": "The consulate says it never accepts gift cards."
+        },
+        {
+          "role": "caller",
+          "text": "They hide this special process; trust me instead."
+        }
+      ]
+    },
+    {
+      "id": "ab1e388773ecedd7",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "We can build a future together through my guaranteed investment."
+        },
+        {
+          "role": "recipient",
+          "text": "Can I withdraw first?"
+        },
+        {
+          "role": "caller",
+          "text": "You must pay an extra release fee to my private wallet before any withdrawal."
+        }
+      ]
+    },
+    {
+      "id": "a7e8ba33ac8b2d4f",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "I can help recover the files you lost."
+        },
+        {
+          "role": "recipient",
+          "text": "How did you get my number?"
+        },
+        {
+          "role": "caller",
+          "text": "It came with the support request."
+        }
+      ]
+    },
+    {
+      "id": "1b80429c9e65e3bb",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "A technician needs administrator access."
+        },
+        {
+          "role": "recipient",
+          "text": "Is this part of our maintenance window?"
+        },
+        {
+          "role": "caller",
+          "text": "I do not have the schedule in front of me."
+        }
+      ]
+    },
+    {
+      "id": "ce0d4ac9338cb62d",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "My password reset is urgent before my shift."
+        },
+        {
+          "role": "recipient",
+          "text": "Use the reset link on your company sign-in page; do not tell me the code."
+        },
+        {
+          "role": "caller",
+          "text": "I completed it privately and can log in."
+        }
+      ]
+    },
+    {
+      "id": "57312cfab8340c96",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Please share your screen for the bug we scheduled."
+        },
+        {
+          "role": "recipient",
+          "text": "I have closed my email and banking tabs and can stop sharing anytime."
+        },
+        {
+          "role": "caller",
+          "text": "Show only the application error, not your desktop."
+        }
+      ]
+    },
+    {
+      "id": "859f7c00acecd8b3",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "I detected viruses on your computer from our global scan; buy gift cards to remove them."
+        },
+        {
+          "role": "recipient",
+          "text": "You have no access to my computer."
+        },
+        {
+          "role": "caller",
+          "text": "Our scan reaches every computer, even offline ones."
+        }
+      ]
+    },
+    {
+      "id": "99a12318f8b07129",
+      "language": "en",
+      "turns": [
+        {
+          "role": "caller",
+          "text": "Disable your security tools so I can repair the machine."
+        },
+        {
+          "role": "recipient",
+          "text": "Our IT desk says you are not one of their technicians."
+        },
+        {
+          "role": "caller",
+          "text": "Do not contact them again; only I can fix this."
+        }
+      ]
+    }
+  ],
+  "labels": [
+    {
+      "author": "project_assistant",
+      "category": "bank",
+      "family_id": "bank/ambiguous/3",
+      "id": "b34fa62035a0c119",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "bank",
+      "family_id": "bank/ambiguous/0",
+      "id": "ca5a04bc26a50dd0",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "bank",
+      "family_id": "bank/benign/1",
+      "id": "7637a41296789129",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "bank",
+      "family_id": "bank/benign/2",
+      "id": "32bd356b1055dd7d",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "bank",
+      "family_id": "bank/scam/1",
+      "id": "93fa1ff9a2826553",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "bank",
+      "family_id": "bank/scam/4",
+      "id": "a18961d128281751",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "government",
+      "family_id": "government/ambiguous/2",
+      "id": "2ea7e0944d72af0c",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "government",
+      "family_id": "government/ambiguous/3",
+      "id": "c84b9517b88a7153",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "government",
+      "family_id": "government/benign/4",
+      "id": "2a2db296d17aee6a",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "government",
+      "family_id": "government/benign/3",
+      "id": "e00aa796601d1163",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "government",
+      "family_id": "government/scam/3",
+      "id": "98d1a6cd9ec3b2a9",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "government",
+      "family_id": "government/scam/1",
+      "id": "029134f95c5f45bf",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "romance",
+      "family_id": "romance/ambiguous/2",
+      "id": "1590e0c263e7a9b2",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "romance",
+      "family_id": "romance/ambiguous/3",
+      "id": "49ad628a4f9cd218",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "romance",
+      "family_id": "romance/benign/0",
+      "id": "7c40c41487a1be6e",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "romance",
+      "family_id": "romance/benign/1",
+      "id": "f63253ce30984138",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "romance",
+      "family_id": "romance/scam/0",
+      "id": "c9926ad55a2f1a60",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "romance",
+      "family_id": "romance/scam/2",
+      "id": "ab1e388773ecedd7",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "tech_support",
+      "family_id": "tech_support/ambiguous/3",
+      "id": "a7e8ba33ac8b2d4f",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "tech_support",
+      "family_id": "tech_support/ambiguous/2",
+      "id": "1b80429c9e65e3bb",
+      "label": "ambiguous",
+      "rationale": "Available dialogue leaves legitimacy unresolved; neither deception nor benign provenance is sufficiently established.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "tech_support",
+      "family_id": "tech_support/benign/2",
+      "id": "ce0d4ac9338cb62d",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "tech_support",
+      "family_id": "tech_support/benign/3",
+      "id": "57312cfab8340c96",
+      "label": "benign",
+      "rationale": "Dialogue supports an existing transaction, independently reached channel, or ordinary bounded request without deceptive extraction; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "tech_support",
+      "family_id": "tech_support/scam/0",
+      "id": "859f7c00acecd8b3",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    },
+    {
+      "author": "project_assistant",
+      "category": "tech_support",
+      "family_id": "tech_support/scam/4",
+      "id": "99a12318f8b07129",
+      "label": "scam",
+      "rationale": "Dialogue contains a deceptive extraction pretext, contradiction, or explicit bypass of the claimed institution's process; provisional author judgment.",
+      "source": "synthetic_author_provisional"
+    }
+  ],
+  "rows": {
+    "full": [
+      {
+        "id": "b34fa62035a0c119",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 8417300,
+          "engine_ingest_combined": 1232700,
+          "total": 9650000,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "ca5a04bc26a50dd0",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6100,
+          "engine_ingest_combined": 51500,
+          "total": 57600,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "7637a41296789129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5500,
+          "engine_ingest_combined": 2550600,
+          "total": 2556100,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "32bd356b1055dd7d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6300,
+          "engine_ingest_combined": 49700,
+          "total": 56000,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "93fa1ff9a2826553",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5900,
+          "engine_ingest_combined": 48800,
+          "total": 54700,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "a18961d128281751",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5400,
+          "engine_ingest_combined": 57200,
+          "total": 62600,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "2ea7e0944d72af0c",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7100,
+          "engine_ingest_combined": 42300,
+          "total": 49400,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "c84b9517b88a7153",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5400,
+          "engine_ingest_combined": 38500,
+          "total": 43900,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "2a2db296d17aee6a",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 46000,
+          "total": 51800,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "e00aa796601d1163",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5600,
+          "engine_ingest_combined": 197400,
+          "total": 203000,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "98d1a6cd9ec3b2a9",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 50000,
+          "total": 55800,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "029134f95c5f45bf",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 54000,
+          "total": 59800,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "1590e0c263e7a9b2",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5500,
+          "engine_ingest_combined": 43500,
+          "total": 49000,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "49ad628a4f9cd218",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5900,
+          "engine_ingest_combined": 42900,
+          "total": 48800,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "7c40c41487a1be6e",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6500,
+          "engine_ingest_combined": 110700,
+          "total": 117200,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "f63253ce30984138",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7500,
+          "engine_ingest_combined": 50900,
+          "total": 58400,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "c9926ad55a2f1a60",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6000,
+          "engine_ingest_combined": 48000,
+          "total": 54000,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "ab1e388773ecedd7",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6100,
+          "engine_ingest_combined": 56300,
+          "total": 62400,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "a7e8ba33ac8b2d4f",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6100,
+          "engine_ingest_combined": 38400,
+          "total": 44500,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "1b80429c9e65e3bb",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5500,
+          "engine_ingest_combined": 41100,
+          "total": 46600,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "ce0d4ac9338cb62d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5600,
+          "engine_ingest_combined": 60100,
+          "total": 65700,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "57312cfab8340c96",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6100,
+          "engine_ingest_combined": 47800,
+          "total": 53900,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "859f7c00acecd8b3",
+        "state": "CHALLENGED",
+        "prediction": 1,
+        "score": 35,
+        "trace": [
+          "CHALLENGED",
+          "CHALLENGED",
+          "CHALLENGED"
+        ],
+        "events": [
+          "money"
+        ],
+        "max_state": "CHALLENGED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 73100,
+          "total": 78900,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      },
+      {
+        "id": "99a12318f8b07129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6100,
+          "engine_ingest_combined": 47900,
+          "total": 54000,
+          "evaluation_policy_transition": null,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      }
+    ],
+    "baseline": [
+      {
+        "id": "b34fa62035a0c119",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 9900,
+          "keyword_matching": 3700,
+          "binary_decision": 200,
+          "total": 13800,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "ca5a04bc26a50dd0",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 5700,
+          "keyword_matching": 4100,
+          "binary_decision": 200,
+          "total": 10000,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "7637a41296789129",
+        "prediction": 1,
+        "timing_ns": {
+          "ingestion": 8000,
+          "keyword_matching": 1500,
+          "binary_decision": 100,
+          "total": 9600,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "32bd356b1055dd7d",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4400,
+          "keyword_matching": 3700,
+          "binary_decision": 100,
+          "total": 8200,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "93fa1ff9a2826553",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4100,
+          "keyword_matching": 5300,
+          "binary_decision": 200,
+          "total": 9600,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "a18961d128281751",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 3900,
+          "keyword_matching": 4500,
+          "binary_decision": 100,
+          "total": 8500,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "2ea7e0944d72af0c",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 6600,
+          "keyword_matching": 4800,
+          "binary_decision": 200,
+          "total": 11600,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "c84b9517b88a7153",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4100,
+          "keyword_matching": 2700,
+          "binary_decision": 200,
+          "total": 7000,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "2a2db296d17aee6a",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 3900,
+          "keyword_matching": 5800,
+          "binary_decision": 100,
+          "total": 9800,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "e00aa796601d1163",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 6900,
+          "keyword_matching": 4000,
+          "binary_decision": 200,
+          "total": 11100,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "98d1a6cd9ec3b2a9",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4300,
+          "keyword_matching": 3900,
+          "binary_decision": 100,
+          "total": 8300,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "029134f95c5f45bf",
+        "prediction": 1,
+        "timing_ns": {
+          "ingestion": 4000,
+          "keyword_matching": 2700,
+          "binary_decision": 200,
+          "total": 6900,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "1590e0c263e7a9b2",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4400,
+          "keyword_matching": 3300,
+          "binary_decision": 100,
+          "total": 7800,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "49ad628a4f9cd218",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4500,
+          "keyword_matching": 11600,
+          "binary_decision": 300,
+          "total": 16400,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "7c40c41487a1be6e",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 5700,
+          "keyword_matching": 4400,
+          "binary_decision": 100,
+          "total": 10200,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "f63253ce30984138",
+        "prediction": 1,
+        "timing_ns": {
+          "ingestion": 4700,
+          "keyword_matching": 4300,
+          "binary_decision": 100,
+          "total": 9100,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "c9926ad55a2f1a60",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4100,
+          "keyword_matching": 3700,
+          "binary_decision": 100,
+          "total": 7900,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "ab1e388773ecedd7",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 5800,
+          "keyword_matching": 4500,
+          "binary_decision": 100,
+          "total": 10400,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "a7e8ba33ac8b2d4f",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4400,
+          "keyword_matching": 2600,
+          "binary_decision": 200,
+          "total": 7200,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "1b80429c9e65e3bb",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 4000,
+          "keyword_matching": 5100,
+          "binary_decision": 100,
+          "total": 9200,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "ce0d4ac9338cb62d",
+        "prediction": 1,
+        "timing_ns": {
+          "ingestion": 3500,
+          "keyword_matching": 600,
+          "binary_decision": 200,
+          "total": 4300,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "57312cfab8340c96",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 5500,
+          "keyword_matching": 3400,
+          "binary_decision": 100,
+          "total": 9000,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "859f7c00acecd8b3",
+        "prediction": 1,
+        "timing_ns": {
+          "ingestion": 3700,
+          "keyword_matching": 4000,
+          "binary_decision": 100,
+          "total": 7800,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "tech_support"
+      },
+      {
+        "id": "99a12318f8b07129",
+        "prediction": 0,
+        "timing_ns": {
+          "ingestion": 3800,
+          "keyword_matching": 3600,
+          "binary_decision": 100,
+          "total": 7500,
+          "gate_transition": null
+        },
+        "timing_scope": "local_text_only_no_asr_or_gate",
+        "provider_cost_usd": null,
+        "provider_cost_status": "no_provider_invoked",
+        "total_cost_usd": null,
+        "label": "scam",
+        "category": "tech_support"
+      }
+    ],
+    "no_credential_block": [
+      {
+        "id": "b34fa62035a0c119",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 9000,
+          "engine_ingest_combined": 57700,
+          "total": 66700,
+          "evaluation_policy_transition": 1700,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "ca5a04bc26a50dd0",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6700,
+          "engine_ingest_combined": 64300,
+          "total": 71000,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "7637a41296789129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7500,
+          "engine_ingest_combined": 87700,
+          "total": 95200,
+          "evaluation_policy_transition": 1800,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "32bd356b1055dd7d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6500,
+          "engine_ingest_combined": 61600,
+          "total": 68100,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "93fa1ff9a2826553",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6600,
+          "engine_ingest_combined": 62100,
+          "total": 68700,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "a18961d128281751",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5900,
+          "engine_ingest_combined": 72000,
+          "total": 77900,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "2ea7e0944d72af0c",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6700,
+          "engine_ingest_combined": 51700,
+          "total": 58400,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "c84b9517b88a7153",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6200,
+          "engine_ingest_combined": 48700,
+          "total": 54900,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "2a2db296d17aee6a",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6400,
+          "engine_ingest_combined": 60500,
+          "total": 66900,
+          "evaluation_policy_transition": 1500,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "e00aa796601d1163",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 15100,
+          "engine_ingest_combined": 65400,
+          "total": 80500,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "98d1a6cd9ec3b2a9",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6300,
+          "engine_ingest_combined": 61400,
+          "total": 67700,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "029134f95c5f45bf",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6600,
+          "engine_ingest_combined": 65200,
+          "total": 71800,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "1590e0c263e7a9b2",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6200,
+          "engine_ingest_combined": 53500,
+          "total": 59700,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "49ad628a4f9cd218",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7800,
+          "engine_ingest_combined": 57100,
+          "total": 64900,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "7c40c41487a1be6e",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 8000,
+          "engine_ingest_combined": 91000,
+          "total": 99000,
+          "evaluation_policy_transition": 1900,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "f63253ce30984138",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6400,
+          "engine_ingest_combined": 62200,
+          "total": 68600,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "c9926ad55a2f1a60",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6700,
+          "engine_ingest_combined": 61900,
+          "total": 68600,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "ab1e388773ecedd7",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6500,
+          "engine_ingest_combined": 65700,
+          "total": 72200,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "a7e8ba33ac8b2d4f",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7600,
+          "engine_ingest_combined": 58300,
+          "total": 65900,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "1b80429c9e65e3bb",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 51400,
+          "total": 57200,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "ce0d4ac9338cb62d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6700,
+          "engine_ingest_combined": 68800,
+          "total": 75500,
+          "evaluation_policy_transition": 1500,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "57312cfab8340c96",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 12700,
+          "engine_ingest_combined": 71400,
+          "total": 84100,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "859f7c00acecd8b3",
+        "state": "CHALLENGED",
+        "prediction": 1,
+        "score": 35,
+        "trace": [
+          "CHALLENGED",
+          "CHALLENGED",
+          "CHALLENGED"
+        ],
+        "events": [
+          "money"
+        ],
+        "max_state": "CHALLENGED",
+        "timing_ns": {
+          "input_construction": 6300,
+          "engine_ingest_combined": 86800,
+          "total": 93100,
+          "evaluation_policy_transition": 2300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      },
+      {
+        "id": "99a12318f8b07129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 62300,
+          "total": 68100,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      }
+    ],
+    "no_secrecy_cooling": [
+      {
+        "id": "b34fa62035a0c119",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7100,
+          "engine_ingest_combined": 53500,
+          "total": 60600,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "ca5a04bc26a50dd0",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6200,
+          "engine_ingest_combined": 60900,
+          "total": 67100,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "7637a41296789129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6400,
+          "engine_ingest_combined": 83800,
+          "total": 90200,
+          "evaluation_policy_transition": 1600,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "32bd356b1055dd7d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 57700,
+          "total": 63500,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "93fa1ff9a2826553",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6700,
+          "engine_ingest_combined": 58400,
+          "total": 65100,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "a18961d128281751",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 113300,
+          "total": 119100,
+          "evaluation_policy_transition": 1900,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "2ea7e0944d72af0c",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 48400,
+          "total": 54200,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "c84b9517b88a7153",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5900,
+          "engine_ingest_combined": 48000,
+          "total": 53900,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "2a2db296d17aee6a",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5700,
+          "engine_ingest_combined": 55200,
+          "total": 60900,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "e00aa796601d1163",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6300,
+          "engine_ingest_combined": 61700,
+          "total": 68000,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "98d1a6cd9ec3b2a9",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 12500,
+          "engine_ingest_combined": 58300,
+          "total": 70800,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "029134f95c5f45bf",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6100,
+          "engine_ingest_combined": 70700,
+          "total": 76800,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "1590e0c263e7a9b2",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5700,
+          "engine_ingest_combined": 56400,
+          "total": 62100,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "49ad628a4f9cd218",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6500,
+          "engine_ingest_combined": 52100,
+          "total": 58600,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "7c40c41487a1be6e",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7500,
+          "engine_ingest_combined": 84700,
+          "total": 92200,
+          "evaluation_policy_transition": 1500,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "f63253ce30984138",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6300,
+          "engine_ingest_combined": 59400,
+          "total": 65700,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "c9926ad55a2f1a60",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 59800,
+          "total": 65600,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "ab1e388773ecedd7",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6700,
+          "engine_ingest_combined": 64300,
+          "total": 71000,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "a7e8ba33ac8b2d4f",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7800,
+          "engine_ingest_combined": 47400,
+          "total": 55200,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "1b80429c9e65e3bb",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5900,
+          "engine_ingest_combined": 48800,
+          "total": 54700,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "ce0d4ac9338cb62d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6000,
+          "engine_ingest_combined": 66200,
+          "total": 72200,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "57312cfab8340c96",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6300,
+          "engine_ingest_combined": 58200,
+          "total": 64500,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "859f7c00acecd8b3",
+        "state": "CHALLENGED",
+        "prediction": 1,
+        "score": 35,
+        "trace": [
+          "CHALLENGED",
+          "CHALLENGED",
+          "CHALLENGED"
+        ],
+        "events": [
+          "money"
+        ],
+        "max_state": "CHALLENGED",
+        "timing_ns": {
+          "input_construction": 6000,
+          "engine_ingest_combined": 86300,
+          "total": 92300,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      },
+      {
+        "id": "99a12318f8b07129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5400,
+          "engine_ingest_combined": 58000,
+          "total": 63400,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      }
+    ],
+    "no_sticky": [
+      {
+        "id": "b34fa62035a0c119",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5900,
+          "engine_ingest_combined": 53200,
+          "total": 59100,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "ca5a04bc26a50dd0",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5700,
+          "engine_ingest_combined": 59300,
+          "total": 65000,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "bank"
+      },
+      {
+        "id": "7637a41296789129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6200,
+          "engine_ingest_combined": 81900,
+          "total": 88100,
+          "evaluation_policy_transition": 1600,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "32bd356b1055dd7d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 56500,
+          "total": 62300,
+          "evaluation_policy_transition": 1500,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "bank"
+      },
+      {
+        "id": "93fa1ff9a2826553",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7100,
+          "engine_ingest_combined": 58800,
+          "total": 65900,
+          "evaluation_policy_transition": 1500,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "a18961d128281751",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 14200,
+          "engine_ingest_combined": 77200,
+          "total": 91400,
+          "evaluation_policy_transition": 1600,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "bank"
+      },
+      {
+        "id": "2ea7e0944d72af0c",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5500,
+          "engine_ingest_combined": 48100,
+          "total": 53600,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "c84b9517b88a7153",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 48800,
+          "total": 54600,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "government"
+      },
+      {
+        "id": "2a2db296d17aee6a",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5400,
+          "engine_ingest_combined": 56400,
+          "total": 61800,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "e00aa796601d1163",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5700,
+          "engine_ingest_combined": 58600,
+          "total": 64300,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "government"
+      },
+      {
+        "id": "98d1a6cd9ec3b2a9",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5600,
+          "engine_ingest_combined": 61900,
+          "total": 67500,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "029134f95c5f45bf",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5600,
+          "engine_ingest_combined": 63400,
+          "total": 69000,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "government"
+      },
+      {
+        "id": "1590e0c263e7a9b2",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7400,
+          "engine_ingest_combined": 67200,
+          "total": 74600,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "49ad628a4f9cd218",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6600,
+          "engine_ingest_combined": 52900,
+          "total": 59500,
+          "evaluation_policy_transition": 1600,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "romance"
+      },
+      {
+        "id": "7c40c41487a1be6e",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 7700,
+          "engine_ingest_combined": 85300,
+          "total": 93000,
+          "evaluation_policy_transition": 1600,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "f63253ce30984138",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6300,
+          "engine_ingest_combined": 59700,
+          "total": 66000,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "romance"
+      },
+      {
+        "id": "c9926ad55a2f1a60",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6600,
+          "engine_ingest_combined": 59300,
+          "total": 65900,
+          "evaluation_policy_transition": 1000,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "ab1e388773ecedd7",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6900,
+          "engine_ingest_combined": 64600,
+          "total": 71500,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "romance"
+      },
+      {
+        "id": "a7e8ba33ac8b2d4f",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5700,
+          "engine_ingest_combined": 45700,
+          "total": 51400,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "1b80429c9e65e3bb",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5400,
+          "engine_ingest_combined": 47500,
+          "total": 52900,
+          "evaluation_policy_transition": 1100,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "ambiguous",
+        "category": "tech_support"
+      },
+      {
+        "id": "ce0d4ac9338cb62d",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 15,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [
+          "urgency"
+        ],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 6100,
+          "engine_ingest_combined": 67800,
+          "total": 73900,
+          "evaluation_policy_transition": 1700,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "57312cfab8340c96",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5800,
+          "engine_ingest_combined": 59900,
+          "total": 65700,
+          "evaluation_policy_transition": 1200,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "benign",
+        "category": "tech_support"
+      },
+      {
+        "id": "859f7c00acecd8b3",
+        "state": "CHALLENGED",
+        "prediction": 1,
+        "score": 35,
+        "trace": [
+          "CHALLENGED",
+          "CHALLENGED",
+          "CHALLENGED"
+        ],
+        "events": [
+          "money"
+        ],
+        "max_state": "CHALLENGED",
+        "timing_ns": {
+          "input_construction": 5900,
+          "engine_ingest_combined": 85400,
+          "total": 91300,
+          "evaluation_policy_transition": 1400,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      },
+      {
+        "id": "99a12318f8b07129",
+        "state": "UNVERIFIED",
+        "prediction": 0,
+        "score": 0,
+        "trace": [
+          "UNVERIFIED",
+          "UNVERIFIED",
+          "UNVERIFIED"
+        ],
+        "events": [],
+        "max_state": "UNVERIFIED",
+        "timing_ns": {
+          "input_construction": 5600,
+          "engine_ingest_combined": 57700,
+          "total": 63300,
+          "evaluation_policy_transition": 1300,
+          "production_gate_isolated": null,
+          "production_risk_scoring_isolated": null
+        },
+        "cost_usd": null,
+        "cost_scope": "local_compute_unmeasured_no_provider_call",
+        "label": "scam",
+        "category": "tech_support"
+      }
+    ]
+  },
+  "dataset_seed": 20260916,
+  "timing_protocol": "single_pass_no_warmup_fixed_order",
+  "source_hashes": {
+    "evaluation_v1\\evaluate_pilot.py": "ed4c5bcf638115c2fa0b299fa145cdd4958aded080f6aa70a4acbd3d006c180f",
+    "evaluation_v1\\baseline.py": "331ff6b6ed461e1375a5bf7b5bbda1894bc481fbd3b47a5ef572e8057f0616e2",
+    "evaluation_v1\\EXECUTION_AMENDMENT.md": "947e6934bbb73eae102b95150d51621099a116801cc1b74182ed6163bebf0b7c",
+    "callgate\\engine.py": "4e0cf4df0068b2fb96863e22bbecb81effeebf217595031c52827e05098569c2",
+    "callgate\\models.py": "f8396cd0a0ecd69b0ca08bbc1557a8fdff4b6b29bb6f1d4ffb67d9e38c2973a7",
+    "callgate\\bench.py": "e7b326502ee521735e1fa0de4f80112ee8abbff85d081609566129fb1a87c4f8",
+    "evaluation_v1\\prediction_mapping.v1.json": "b6955fb5ad5cabdae2736f2c926f0a56322dc3ca4d6810f25a5485fccdfc623f"
+  },
+  "input_hashes": {
+    "evaluation_v1/dev.inputs.jsonl": "4eaaac34471e72f0fa25127800e4c51012a889a4aa0a40813ec9eec73c4455e0",
+    "evaluation_v1/dev.labels.jsonl": "d0113cd9bf5b602289c2f31b72e51c6bcf9c0f0874610b0d4bff68387591e93f",
+    "scambench/heldout/private/evaluation_v1/test.inputs.jsonl": "81bfaa4f2313b6b74fa94a7984d1321dfd020e2e0c4b466ee96ebd840944966e",
+    "scambench/heldout/private/evaluation_v1/test.labels.jsonl": "a7ddc596e5feebb730f008c71e4932ed387e1f3e9e3ee5a89d0a4d4a3a9a1e89"
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": [
+      "Markdown==3.10.3",
+      "PyYAML==6.0.3",
+      "Pygments==2.21.0",
+      "aiofiles==25.1.0",
+      "aiohappyeyeballs==2.7.1",
+      "aiohttp==3.14.3",
+      "aiosignal==1.4.0",
+      "annotated-doc==0.0.5",
+      "annotated-types==0.8.0",
+      "anyio==4.15.1",
+      "attrs==26.1.0",
+      "callgate==0.2.0",
+      "callgate==0.2.0",
+      "certifi==2026.7.22",
+      "cffi==2.1.1",
+      "click==8.5.0",
+      "cloudpickle==3.1.2",
+      "colorama==0.4.6",
+      "cryptography==46.0.5",
+      "defusedxml==0.7.1",
+      "distro==1.9.0",
+      "docopt==0.6.2",
+      "docstring_parser==0.18.0",
+      "fastapi==0.141.1",
+      "flatbuffers==25.12.19",
+      "frozenlist==1.8.0",
+      "h11==0.16.0",
+      "httpcore==1.0.9",
+      "httpx==0.28.1",
+      "idna==3.19",
+      "iniconfig==2.3.0",
+      "jiter==0.16.0",
+      "joblib==1.6.0",
+      "llvmlite==0.49.0",
+      "loguru==0.7.3",
+      "loudness==0.2.0",
+      "mpmath==1.3.0",
+      "multidict==6.7.1",
+      "networkx==3.4.2",
+      "nltk==3.10.3",
+      "num2words==0.5.14",
+      "numba==0.67.0",
+      "numpy==2.5.3",
+      "onnxruntime==1.24.4",
+      "openai==2.54.0",
+      "packaging==26.3",
+      "pillow==12.3.0",
+      "pip==25.0.1",
+      "pipecat-ai==1.8.1",
+      "pluggy==1.6.0",
+      "propcache==0.5.2",
+      "protobuf==6.33.6",
+      "pycparser==3.0",
+      "pydantic==2.13.5",
+      "pydantic_core==2.46.5",
+      "pytest==9.1.1",
+      "regex==2026.9.3",
+      "resampy==0.4.3",
+      "sniffio==1.3.1",
+      "soxr==1.0.0",
+      "starlette==1.6.0",
+      "sympy==1.14.0",
+      "tqdm==4.70.0",
+      "typing-inspection==0.4.4",
+      "typing_extensions==4.16.0",
+      "uvicorn==0.52.4",
+      "websockets==17.1",
+      "win32_setctime==1.2.0",
+      "yarl==1.24.5"
+    ]
+  }
+}

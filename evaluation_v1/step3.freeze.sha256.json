@@ -1,0 +1,8 @@
+{
+  "files": {
+    "STEP3_CONDITIONS.md": "f20dc036a38529f14320c0965110b6185a02b53c6e33b8975f173dddfaf5e81f",
+    "baseline.py": "331ff6b6ed461e1375a5bf7b5bbda1894bc481fbd3b47a5ef572e8057f0616e2",
+    "run_dev_sanity.py": "0b47bfcc7e1f2526829081f8e6394871bf5e1891e63dd092b65c9d13680b3672"
+  },
+  "scope": "conditional_step3_dev_only"
+}

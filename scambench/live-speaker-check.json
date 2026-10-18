@@ -1,0 +1,81 @@
+{
+  "timestamp_utc": "2026-09-09T21:37:32.970848+00:00",
+  "audio": "synthetic-call.wav",
+  "test_type": "live_provider_synthetic_audio",
+  "finalized_turns": [
+    {
+      "received_ms": 3199,
+      "segment_id": "aai-0",
+      "revision": 6,
+      "start_ms": 160,
+      "end_ms": 2377,
+      "role": "unknown",
+      "provider_speaker": "A",
+      "transcript_sha256": "9cf70b4a5d291e32d9ddf644f2137fb85d1afe04d65f036ca9dd4526853fe87e",
+      "event_kinds": [
+        "authority"
+      ],
+      "state": "UNVERIFIED",
+      "score": 10
+    },
+    {
+      "received_ms": 5612,
+      "segment_id": "aai-1",
+      "revision": 6,
+      "start_ms": 2983,
+      "end_ms": 4516,
+      "role": "unknown",
+      "provider_speaker": "A",
+      "transcript_sha256": "46227f15ad587c70e7f1ebad705abbcb0d7d96472ce6cd366e0bbb2e6d8a798b",
+      "event_kinds": [
+        "money",
+        "urgency"
+      ],
+      "state": "CHALLENGED",
+      "score": 60
+    },
+    {
+      "received_ms": 7317,
+      "segment_id": "aai-2",
+      "revision": 3,
+      "start_ms": 5158,
+      "end_ms": 6293,
+      "role": "unknown",
+      "provider_speaker": "A",
+      "transcript_sha256": "7701f14908347f185ab7f1be51a4d6ad07616c425d73fa1dd641e3b739e33d34",
+      "event_kinds": [
+        "secrecy"
+      ],
+      "state": "COOLING_OFF",
+      "score": 80
+    },
+    {
+      "received_ms": 8846,
+      "segment_id": "aai-3",
+      "revision": 2,
+      "start_ms": 6742,
+      "end_ms": 7737,
+      "role": "unknown",
+      "provider_speaker": null,
+      "transcript_sha256": "9ee4deff9a8d3a1084dd8c511b16300f7fc7dba08d6a21511b377ec6e90107a8",
+      "event_kinds": [
+        "secrecy"
+      ],
+      "state": "COOLING_OFF",
+      "score": 80
+    }
+  ],
+  "final": {
+    "state": "COOLING_OFF",
+    "score": 80,
+    "event_kinds": [
+      "authority",
+      "money",
+      "secrecy",
+      "urgency"
+    ],
+    "protected_actions_allowed": false
+  },
+  "wall_seconds": 12.83,
+  "limitations": "Synthetic clean speech smoke test; not held-out accuracy or microphone/telephony verification."
+}

@@ -1,0 +1,2 @@
+# Preserve the original bytes of hash-bound evaluation artifacts on every OS.
+* -text whitespace=cr-at-eol

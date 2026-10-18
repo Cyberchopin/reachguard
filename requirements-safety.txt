@@ -1,0 +1,3 @@
+# Property tests for the live policy. Not needed for archived report rendering.
+hypothesis==6.168.5
+sortedcontainers==2.4.0
