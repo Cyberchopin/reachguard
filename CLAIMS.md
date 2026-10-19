@@ -593,7 +593,7 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
   {
     "id": "reach-readme-021",
     "document": "README.md",
-    "quote": "| Hardware-origin upload report | Teammate reports real button/BLE/Swift delivery; the operator relays an App screenshot showing Medical / Recorded by backend. The backend independently contains the matching help requests. Hardware-event contact acceptance and the full loop remain pending; see [receipt reconciliation](docs/REACH_HARDWARE_RECEIPTS_2026-10-18.md). |",
+    "quote": "| Hardware-origin upload report | Teammate reports real button/BLE/Swift delivery; the operator relays an App screenshot showing Medical / Recorded by backend. The backend independently contains the matching help requests. The T14 Emergency event now has one applied contact acceptance and accepted state (version 1); see [updated receipt reconciliation](docs/REACH_HARDWARE_RECEIPTS_2026-10-18.md). This proves acknowledgement, not arrival of help. |",
     "check": "nonmetric_reference",
     "references": [
       "docs/REACH_HARDWARE_RECEIPTS_2026-10-18.md",
@@ -670,6 +670,29 @@ Run `python scripts/check_claims.py`. Numeric sentence changes, unregistered dig
       "docs/REACH_INTEGRATION_HANDOFF.md"
     ],
     "reason": "Reviewed nonmetric digits: instruction numbering, dated evidence link, or repository/commit identifier; not a performance measurement. The linked source/evidence supplies the stated behavior or provenance."
+  },
+  {
+    "id": "reach-readme-023",
+    "document": "README.md",
+    "quote": "| Foreground Swift BLE gateway | Current integrated gateway and device CI are under [device/ios/ReachGateway](device/ios/ReachGateway); see T13–T18 in the device test record. PR #3 also merged a separate, older root `ios/` implementation. These are different implementations; root `ios/` is not covered by the device workflow. The exact installed phone build revision is not established by the backend audit. |",
+    "check": "nonmetric_reference",
+    "references": [
+      "device/TEST_RESULTS.md",
+      ".github/workflows/device.yml",
+      "ios/README.md"
+    ],
+    "reason": "Repository paths, PR identifier and historical test identifiers; implementation provenance and CI scope are references, not current hardware-build verification."
+  },
+  {
+    "id": "reach-readme-024",
+    "document": "README.md",
+    "quote": "| Optional contact rotation | PR #5 is merged into repository main; `--contacts` enables page visibility rotation, and Level 1 repeats are configurable. It is not enabled in the frozen onsite service. A reproduced late-unable defect can skip the current contact’s remaining wait; review before enabling. |",
+    "check": "nonmetric_reference",
+    "references": [
+      "callgate/help_requests.py",
+      "scripts/start_help_demo.py"
+    ],
+    "reason": "PR and Level 1 identifiers; optional scheduling and the timestamped onsite/defect observation, not a latency or availability metric."
   }
 ]
 ```
